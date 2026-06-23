@@ -58,3 +58,16 @@ Hey everybody!!
 5. **Students**
     - *Used for Marks Calculation, Project Tracking, Attendance.*
     - **Example:** *Calculating semester percentages.*
+
+**Why Excel is important for Data Analyst?**
+
+- *Because raw data usually comes in:*
+  - *Excel files (.xlsx)*
+  - *CSV files (.csv)*
+- *Before SQL, Python or Power BI, analysts often clean and inspect data in Excel.*
+- *Common analyst tasks:*
+  - *Remove duplicates*
+  - *Find missing values.*
+  - *Create pivot tables*
+  - *Generate reports*
+  - *Build dashboards*
