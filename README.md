@@ -211,6 +211,23 @@ Hey everybody!!
 
    *using Excel.*
 
-   1. **Create Dashboards**
-   2. **Automate Repetitive Tasks**
-   3. **Track Business Performance**
+   6. **Dashboard Creation:** *A dashboard is a visual summary of business performance.*
+   
+   **Dashboard may contain**
+   - *Revenue*
+   - *Profit*
+   - *Growth*
+   - *Charts*
+   - *KPIs*
+
+   **Example:** *CEO Dashboard*
+   
+   *Shows*
+   - *Total Revenue*
+   - *Total Customers*
+   - *Profit Margin*
+   - *Monthly Growth*
+
+   *on one screen.*
+   1. **Automate Repetitive Tasks**
+   2. **Track Business Performance**
