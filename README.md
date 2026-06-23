@@ -6,6 +6,7 @@ Hey everybody!!
 - [**Table of Contents**](#table-of-contents)
 - [**Excel Fundamentals**](#excel-fundamentals)
   - [**Introduction to Excel**](#introduction-to-excel)
+  - [**Uses of Excel**](#uses-of-excel)
 
 ### **Excel Fundamentals**
 
@@ -89,3 +90,46 @@ Hey everybody!!
      - *Python*
      - *Power BI*
    *are better* 
+
+#### **Uses of Excel**
+
+**What are the uses of Excel?**
+
+*Excel is used to:*
+  1. **Store data:** *Excel can store large amounts of information in rows and columns.*
+    **Example:** *Student records*
+    | Student ID | Name  | Marks |
+    | ---------- | ----- | ----- |
+    | 101        | Ravi  | 85    |
+    | 102        | Priya | 92    |
+    | 103        | Kiran | 78    |
+
+ *Instead of maintaining records on papers, they can be stored digitally.*
+
+   2. **Organize data:** *Excel helps arrange data in a structured format.*
+     **Unorganized Data:**
+      Ravi 85
+      Priya 92
+      Kiran 78
+
+      **Organized Data:**
+      | Name  | Marks |
+      | ----- | ----- |
+      | Ravi  | 85    |
+      | Priya | 92    |
+      | Kiran | 78    |
+   
+   *Organized data is easier to read and analyze.*
+
+   **Example:** *An HR department organizes employee information:*
+   | Emp ID | Name | Department |
+   | ------ | ---- | ---------- |
+   | E101   | Ram  | HR         |
+   | E102   | Sita | Finance    |
+
+   3. **Perform Calculations**
+  1. **Analyze data**
+  2. **Create Reports**
+  3. **Create Dashboards**
+  4. **Automate Repetitive Tasks**
+  5. **Track Business Performance**
