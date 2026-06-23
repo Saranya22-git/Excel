@@ -100,11 +100,11 @@ Hey everybody!!
     
   **Example:** *Student records*
 
-    | Student ID | Name  | Marks |
-    | ---------- | ----- | ----- |
-    | 101        | Ravi  | 85    |
-    | 102        | Priya | 92    |
-    | 103        | Kiran | 78    |
+  | Student ID | Name  | Marks |
+  | ---------- | ----- | ----- |
+  | 101        | Ravi  | 85    |
+  | 102        | Priya | 92    |
+  | 103        | Kiran | 78    |
 
  *Instead of maintaining records on papers, they can be stored digitally.*
 
