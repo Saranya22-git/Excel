@@ -156,11 +156,11 @@ Hey everybody!!
    ```
 
    **Example:**
-    - *A shop owner calculates:*
-      - *Total Sales*
-      - *Profit*
-      - *Expenses*
-      - *Monthly Revenue*
+   - *A shop owner calculates:*
+    - *Total Sales*
+    - *Profit*
+    - *Expenses*
+    - *Monthly Revenue*
     
     *using Excel formulas.*
 
