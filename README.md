@@ -34,3 +34,27 @@ Hey everybody!!
 - *Book sales = 20 * 50 = 1000*
 
 *Excel can calculate this automatically using formulas.*
+
+**Real-World uses of Excel**
+
+1. **Business**
+    - *Used for Sales Reports, Revenue Tracking, Expense Tracking, Profit Analysis.*
+    - **Example:** *A company tracks monthly sales in Excel.*
+  
+2. **HR Department**
+    - *Used for Employee Records, Attendance Tracking, Salary Sheets, Leave Management.*
+    - **Example:** *HR maintains employee attendance for 500 employees.*
+
+
+3. **Finance Department**
+    - *Used for Budget Planning, Loan Calculations, Financial Statements.*
+    - **Example:** *Accountants prepare profit and loss reports.*
+
+4. **Data Analyst**
+    - *Used for Data Cleaning, Data Validation, Pivot Tables, Dashboards, KPI Reporting.*
+    - **Example:** *Analyzing customer purchase data.*
+
+
+5. **Students**
+    - *Used for Marks Calculation, Project Tracking, Attendance.*
+    - **Example:** *Calculating semester percentages.*
