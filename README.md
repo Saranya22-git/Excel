@@ -108,7 +108,16 @@ Hey everybody!!
 
  *Instead of maintaining records on papers, they can be stored digitally.*
 
-   2. **Organize data:** *Excel helps arrange data in a structured format.*
+ **Example:** 
+ - *A college stores details of thousands of students in Excel.*
+ - *Information may include:*
+   - *Student ID*
+   - *Name*
+   - *Phone Number*
+   - *Marks*
+   - *Attendance*
+
+  2. **Organize data:** *Excel helps arrange data in a structured format.*
      
   **Unorganized Data:**
 
@@ -134,7 +143,7 @@ Hey everybody!!
   | E101   | Ram  | HR         |
   | E102   | Sita | Finance    |
 
-   3. **Perform Calculations:** *Excel can perform calculations automatically using formulas.*
+  3. **Perform Calculations:** *Excel can perform calculations automatically using formulas.*
     
    **Example:**
    | Product | Qty | Price |
@@ -146,9 +155,43 @@ Hey everybody!!
    =10*5        Result: 50
    ```
 
+   **Example:**
+    - *A shop owner calculates:*
+     - *Total Sales*
+     - *Profit*
+     - *Expenses*
+     - *Monthly Revenue*
+    
+    *using Excel formulas.*
+      
+  4. **Data Analysis:** *Analyzing data means finding useful information from raw data.*
 
-   4. **Analyze data**
-   5. **Create Reports**
+   **Example:** *Sales data*
+
+   | Month | Sales |
+   | ----- | ----- |
+   | Jan   | 50000 |
+   | Feb   | 70000 |
+   | Mar   | 90000 |
+
+   **Questions:** 
+    - *Which month had highest sales?*
+    - *Average sales?*
+    - *Growth Percentage?*
+   
+   *Excel can answer these using functions and Pivot tables.*
+
+  5. **Create Reports:** *Reports summarize information for management.*
+
+   **Example:** *Monthly Sales Report*
+   | Month | Revenue |
+   | ----- | ------- |
+   | Jan   | 50000   |
+   | Feb   | 70000   |
+   | Mar   | 90000   |
+
+   *Management uses reports to make decisions.*
+
    6. **Create Dashboards**
    7. **Automate Repetitive Tasks**
    8. **Track Business Performance**
