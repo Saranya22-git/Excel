@@ -229,5 +229,33 @@ Hey everybody!!
    - *Monthly Growth*
 
    *on one screen.*
-   1. **Automate Repetitive Tasks**
-   2. **Track Business Performance**
+
+   7. **Budget Planning:** *Excel helps plan income and expenses.*
+
+   **Example:**
+   | Category | Amount |
+   | -------- | ------ |
+   | Salary   | 50000  |
+   | Rent     | 10000  |
+   | Food     | 5000   |
+   | Savings  | 15000  |
+   
+   **Example:** *Finance departments create annual budgets in Excel.*
+
+   8. **Financial Analysis:** *Analyzing money-related information.*
+
+   **Examples:**
+     - *Profit*
+     - *Loss*
+     - *ROI*
+     - *Investments*
+     - *Loans*
+
+   **Example:** *An accountant calculates*
+     - *Net Profit*
+     - *Tax*
+     - *Cash Flow*
+
+   *using Excel.*
+
+   9.  **Inventory Management:**
