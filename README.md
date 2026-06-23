@@ -182,7 +182,14 @@ Hey everybody!!
    
    *Excel can answer these using functions and Pivot tables.*
 
-  5. **Create Reports:** *Reports summarize information for management.*
+   **Example:** 
+
+   - *A Data Analyst receives customer sales data and finds:*
+    - *Best-selling products*
+    - *Top customers*
+    - *Monthly growth* 
+
+  5. **Reporting:** *Reports summarize information for management.*
 
    **Example:** *Monthly Sales Report*
    | Month | Revenue |
@@ -193,6 +200,16 @@ Hey everybody!!
 
    *Management uses reports to make decisions.*
 
-   6. **Create Dashboards**
-   7. **Automate Repetitive Tasks**
-   8. **Track Business Performance**
+   **Example:**
+
+   - *Every month companies generate:*
+    - *Sales Reports*
+    - *Employee Reports*
+    - *Expense Reports*
+    - *Inventory Reports* 
+
+   *using Excel.*
+
+   1. **Create Dashboards**
+   2. **Automate Repetitive Tasks**
+   3. **Track Business Performance**
