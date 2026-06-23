@@ -176,18 +176,19 @@ Hey everybody!!
    | Mar   | 90000 |
 
    **Questions:** 
-    - *Which month had highest sales?*
-    - *Average sales?*
-    - *Growth Percentage?*
+
+   - *Which month had highest sales?*
+   - *Average sales?*
+   - *Growth Percentage?*
    
    *Excel can answer these using functions and Pivot tables.*
 
    **Example:** 
 
    - *A Data Analyst receives customer sales data and finds:*
-    - *Best-selling products*
-    - *Top customers*
-    - *Monthly growth* 
+     - *Best-selling products*
+     - *Top customers*
+     - *Monthly growth* 
 
   5. **Reporting:** *Reports summarize information for management.*
 
@@ -203,10 +204,10 @@ Hey everybody!!
    **Example:**
 
    - *Every month companies generate:*
-    - *Sales Reports*
-    - *Employee Reports*
-    - *Expense Reports*
-    - *Inventory Reports* 
+     - *Sales Reports*
+     - *Employee Reports*
+     - *Expense Reports*
+     - *Inventory Reports* 
 
    *using Excel.*
 
