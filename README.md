@@ -110,7 +110,7 @@ Hey everybody!!
 
    2. **Organize data:** *Excel helps arrange data in a structured format.*
      
-     **Unorganized Data:**
+    **Unorganized Data:**
 
       Ravi 85
 
@@ -118,12 +118,12 @@ Hey everybody!!
 
       Kiran 78
 
-      **Organized Data:**
-      | Name  | Marks |
-      | ----- | ----- |
-      | Ravi  | 85    |
-      | Priya | 92    |
-      | Kiran | 78    |
+    **Organized Data:**
+    | Name  | Marks |
+    | ----- | ----- |
+    | Ravi  | 85    |
+    | Priya | 92    |
+    | Kiran | 78    |
    
    *Organized data is easier to read and analyze.*
 
