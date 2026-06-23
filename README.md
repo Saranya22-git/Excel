@@ -79,3 +79,13 @@ Hey everybody!!
 - **Powerful Analysis:** *Pivot tables and formulas simplify analysis.*
 - **Visualization:** *Can create charts and dashboards.*
 - **Industry Standard:** *Almost every company uses excel.*
+
+**Limitations of Excel:**
+
+- **Large Data Problems:** 
+   - *Excel is not ideal for millions of rows.*
+   - *For huge datasets:*
+     - *SQL*
+     - *Python*
+     - *Power BI*
+   *are better* 
