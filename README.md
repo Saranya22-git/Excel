@@ -134,9 +134,21 @@ Hey everybody!!
   | E101   | Ram  | HR         |
   | E102   | Sita | Finance    |
 
-   3. **Perform Calculations**
-  1. **Analyze data**
-  2. **Create Reports**
-  3. **Create Dashboards**
-  4. **Automate Repetitive Tasks**
-  5. **Track Business Performance**
+   3. **Perform Calculations:** *Excel can perform calculations automatically using formulas.*
+    
+   **Example:**
+   | Product | Qty | Price |
+   | ------- | --- | ----- |
+   | Pen     | 10  | 5     |
+
+   **Formula:** 
+   ```excel
+   =10*5        Result: 50
+   ```
+
+
+   4. **Analyze data**
+   5. **Create Reports**
+   6. **Create Dashboards**
+   7. **Automate Repetitive Tasks**
+   8. **Track Business Performance**
