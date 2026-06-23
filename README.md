@@ -97,7 +97,9 @@ Hey everybody!!
 
 *Excel is used to:*
   1. **Store data:** *Excel can store large amounts of information in rows and columns.*
+    
     **Example:** *Student records*
+
     | Student ID | Name  | Marks |
     | ---------- | ----- | ----- |
     | 101        | Ravi  | 85    |
@@ -108,8 +110,11 @@ Hey everybody!!
 
    2. **Organize data:** *Excel helps arrange data in a structured format.*
      **Unorganized Data:**
+
       Ravi 85
+
       Priya 92
+
       Kiran 78
 
       **Organized Data:**
