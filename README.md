@@ -156,13 +156,14 @@ Hey everybody!!
    ```
 
    **Example:**
+
    - *A shop owner calculates:*
-    - *Total Sales*
-    - *Profit*
-    - *Expenses*
-    - *Monthly Revenue*
+     - *Total Sales*
+     - *Profit*
+     - *Expenses*
+     - *Monthly Revenue*
     
-    *using Excel formulas.*
+  *using Excel formulas.*
 
   4. **Data Analysis:** *Analyzing data means finding useful information from raw data.*
 
