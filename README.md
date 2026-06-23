@@ -32,4 +32,5 @@ Hey everybody!!
 *If you want total sales:*
 - *Pen sales = 10 * 5 = 50*
 - *Book sales = 20 * 50 = 1000*
+
 *Excel can calculate this automatically using formulas.*
