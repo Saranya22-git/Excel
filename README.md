@@ -298,7 +298,9 @@ Hey everybody!!
    - *Employee Database*
    - *Leave Tracking*
 
-   11. **Education Sector:** *Uses*
+   11. **Education Sector:** 
+   
+   *Uses*
 
       - *Marks Calculation*
       - *Attendance Tracking*
