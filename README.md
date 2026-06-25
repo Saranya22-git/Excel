@@ -245,16 +245,16 @@ Hey everybody!!
    8. **Financial Analysis:** *Analyzing money-related information.*
 
    **Examples:**
-     - *Profit*
-     - *Loss*
-     - *ROI*
-     - *Investments*
-     - *Loans*
+   - *Profit*
+   - *Loss*
+   - *ROI*
+   - *Investments*
+   - *Loans*
 
    **Example:** *An accountant calculates*
-     - *Net Profit*
-     - *Tax*
-     - *Cash Flow*
+   - *Net Profit*
+   - *Tax*
+   - *Cash Flow*
 
    *using Excel.*
 
