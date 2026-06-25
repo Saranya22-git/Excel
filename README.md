@@ -300,10 +300,10 @@ Hey everybody!!
 
    11. **Education Sector:** *Uses*
 
-     - *Marks Calculation*
-     - *Attendance Tracking*
-     - *Timetable Management*
-     - *Result Analysis*
+      - *Marks Calculation*
+      - *Attendance Tracking*
+      - *Timetable Management*
+      - *Result Analysis*
 
    **Example:**
    | Subject | Marks |
