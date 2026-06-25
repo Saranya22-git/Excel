@@ -6,11 +6,14 @@ Hey everybody!!
 - [**Table of Contents**](#table-of-contents)
 - [**Excel Fundamentals**](#excel-fundamentals)
   - [**Introduction to Excel**](#introduction-to-excel)
-  - [**Uses of Excel**](#uses-of-excel)
+    - [**Excel**](#excel)
+    - [**Uses of Excel**](#uses-of-excel)
 
 ### **Excel Fundamentals**
 
 #### **Introduction to Excel**
+
+##### **Excel**
 
 **What is Excel?**
 
@@ -36,6 +39,8 @@ Hey everybody!!
 
 *Excel can calculate this automatically using formulas.*
 
+---
+
 **Real-World uses of Excel**
 
 1. **Business**
@@ -45,7 +50,6 @@ Hey everybody!!
 2. **HR Department**
     - *Used for Employee Records, Attendance Tracking, Salary Sheets, Leave Management.*
     - **Example:** *HR maintains employee attendance for 500 employees.*
-
 
 3. **Finance Department**
     - *Used for Budget Planning, Loan Calculations, Financial Statements.*
@@ -60,6 +64,8 @@ Hey everybody!!
     - *Used for Marks Calculation, Project Tracking, Attendance.*
     - **Example:** *Calculating semester percentages.*
 
+---
+
 **Why Excel is important for Data Analyst?**
 
 - *Because raw data usually comes in:*
@@ -73,6 +79,8 @@ Hey everybody!!
   - *Generate reports*
   - *Build dashboards*
 
+---
+
 **Advantages of Excel**
 
 - **Easy to learn:** *No programming needed.*
@@ -80,6 +88,8 @@ Hey everybody!!
 - **Powerful Analysis:** *Pivot tables and formulas simplify analysis.*
 - **Visualization:** *Can create charts and dashboards.*
 - **Industry Standard:** *Almost every company uses excel.*
+
+---
 
 **Limitations of Excel:**
 
@@ -91,7 +101,9 @@ Hey everybody!!
      - *Power BI*
    *are better* 
 
-#### **Uses of Excel**
+---
+
+##### **Uses of Excel**
 
 **What are the uses of Excel?**
 
@@ -258,4 +270,73 @@ Hey everybody!!
 
    *using Excel.*
 
-   9.  **Inventory Management:**
+   9. **Inventory Management:** *Tracking stock available in a business.*
+
+   **Example:**
+   | Product | Stock |
+   | ------- | ----- |
+   | Pen     | 100   |
+   | Book    | 50    |
+   
+   *Excel helps identify:*
+   - *Low stock*
+   - *High stock*
+   - *Reorder quantity*
+
+   **Example:** *A supermarket tracks thousands of products using Excel.*
+
+   10. **Employee Management:** *Managing employee information.*
+   
+   **Example:**
+   | Emp ID | Name | Salary |
+   | ------ | ---- | ------ |
+   | E101   | Ravi | 40000  |
+
+   **Example:** *HR uses excel for:*
+   - *Attendance*
+   - *Payroll*
+   - *Employee Database*
+   - *Leave Tracking*
+
+   11. **Education Sector:** *Uses*
+
+    - *Marks Calculation*
+    - *Attendance Tracking*
+    - *Timetable Management*
+    - *Result Analysis*
+
+   **Example:**
+   | Subject | Marks |
+   | ------- | ----- |
+   | Math    | 90    |
+   | Science | 85    |
+
+   *Excel automatically calculates:*
+   - *Total Marks*
+   - *Average*
+   - *Percentage*
+
+   12. **Data Cleaning:** *Fixing messy data.*
+
+   **Example:** *Before Cleaning*
+   | Name |
+   | ---- |
+   | Ravi |
+   | ravi |
+   | RAVI |
+  
+   *After Cleaning*
+   | Name |
+   | ---- |
+   | Ravi |
+
+   **Example:** *Data Analysts spend a large portion of their time cleaning data before analysis.*
+
+   13. **Automation:** *Automating repetitive work.*
+
+   **Example:** *Instead of calculating salary for 1000 employees manually, Excel formulas can calculate all salaries instantly.*
+
+   **Advanced Automation:**
+   - *Macros*
+   - *VBA*
+   - *Power Query*
