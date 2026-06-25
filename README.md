@@ -302,10 +302,10 @@ Hey everybody!!
    
    *Uses*
 
-      - *Marks Calculation*
-      - *Attendance Tracking*
-      - *Timetable Management*
-      - *Result Analysis*
+    - *Marks Calculation*
+    - *Attendance Tracking*
+    - *Timetable Management*
+    - *Result Analysis*
 
    **Example:**
    | Subject | Marks |
