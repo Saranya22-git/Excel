@@ -362,7 +362,7 @@ Hey everybody!!
 
 **Example:**
 
-- *Imagine you work in a company. The company maintains a file name `**Sales_Report_2026.xlsx**`. This Single file is a Workbook.*
+- *Imagine you work in a company. The company maintains a file name Sales_Report_2026.xlsx. This Single file is a Workbook.*
 - *Inside this workbook there may be:*
  - *January Sales*
  - *February Sales*
@@ -379,9 +379,9 @@ Hey everybody!!
 
 - *A Worksheet is a single spreadsheet(sheet) inside a workbook.*
 - *It is made up of:*
- - *Rows*
- - *Columns*
- - *Cells*
+  - *Rows*
+  - *Columns*
+  - *Cells*
 
 *This is where you actually enter, edit and analyze data.*
 
