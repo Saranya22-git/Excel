@@ -437,13 +437,14 @@ Hey everybody!!
 - *Each row is identified by a number.*
 
 **Example:**
-|   A  |   B  |   C   |   D   |
+|      |   A  |   B   |   C   |
 |------|------|-------|-------|
 |   1  |      |       |       |
 |   2  |      |       |       |
 |   3  |      |       |       |
 |   4  |      |       |       |
 |   5  |      |       |       |
+
 
 *The numbers 1, 2, 3, 4, 5 represents Rows.*
 
@@ -488,10 +489,13 @@ Hey everybody!!
 - *Each column is identified by letters.*
 
 **Example:**
-A    B    C    D
-│    │    │    │
-│    │    │    │
-│    │    │    │
+|      |   A  |   B   |   C   |
+|------|------|-------|-------|
+|   1  |      |       |       |
+|   2  |      |       |       |
+|   3  |      |       |       |
+|   4  |      |       |       |
+|   5  |      |       |       |
 
 *Columns are labeled: A B C D ..... After Z excel continues with AA AB AC .... AZ BA BB ...*
 
