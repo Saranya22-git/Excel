@@ -364,12 +364,12 @@ Hey everybody!!
 
 - *Imagine you work in a company. The company maintains a file name Sales_Report_2026.xlsx. This Single file is a Workbook.*
 - *Inside this workbook there may be:*
- - *January Sales*
- - *February Sales*
- - *March Sales*
- - *April Sales*
- - *May Sales*
- - *Summary Report*
+  - *January Sales*
+  - *February Sales*
+  - *March Sales*
+  - *April Sales*
+  - *May Sales*
+  - *Summary Report*
 
 *Each of these is a separate worksheet.*
 
