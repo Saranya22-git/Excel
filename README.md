@@ -560,7 +560,13 @@ Hey everybody!!
 
 **What can a cell contain?**
 
-*A Cell can contain Text(Ravi), Numbers(6789), Dates(28-06-2026), Time(10:30 AM), Formulas(=A1+B1), Functions(=SUM(A1:A10))*
+*A Cell can contain*
+- *Text(Ravi)*
+- *Numbers(6789)*
+- *Dates(28-06-2026)*
+- *Time(10:30 AM)*
+- *Formulas(=A1+B1)*
+- *Functions(=SUM(A1:A10))*
 
 ---
 
