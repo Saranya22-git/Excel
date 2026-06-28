@@ -537,10 +537,13 @@ Hey everybody!!
 - *A Cell is the smallest unit in an excel worksheet where you enter data.*
 
 **Example:**
-      A      B      C
-1
-2            ●
-3
+|      |   A  |   B   |   C   |
+|------|------|-------|-------|
+|   1  |      |       |       |
+|   2  |      |   ●   |       |
+|   3  |      |       |       |
+|   4  |      |       |       |
+|   5  |      |       |       |
 
 *The highlighted point is where Column B and Row 2 meet. That cell is called B2.*
 
