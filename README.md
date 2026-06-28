@@ -437,12 +437,13 @@ Hey everybody!!
 - *Each row is identified by a number.*
 
 **Example:**
-      A      B      C      D
-1
-2
-3
-4
-5
+|   A  |   B  |   C   |   D   |
+|------|------|-------|-------|
+|   1  |      |       |       |
+|   2  |      |       |       |
+|   3  |      |       |       |
+|   4  |      |       |       |
+|   5  |      |       |       |
 
 *The numbers 1, 2, 3, 4, 5 represents Rows.*
 
