@@ -9,6 +9,8 @@ Hey everybody!!
     - [**Excel**](#excel)
     - [**Uses of Excel**](#uses-of-excel)
     - [**Workbook vs Worksheet**](#workbook-vs-worksheet)
+    - [**Rows, Columns and Cells**](#rows-columns-and-cells)
+    - [**Active Cell**](#active-cell)
 
 ### **Excel Fundamentals**
 
@@ -418,6 +420,193 @@ Hey everybody!!
 ---
 
 **Advantages of using multiple worksheets**
+
+- **Better Organization:** *Each sheet stores one type of information.*
+- **Easier Navigation:** *Instead of scrolling through thousands of rows, switch directly to the required worksheet.*
+- **Better reporting:** *One worksheet stores raw data. Another worksheet stores pivot tables.. Another worksheet stores charts. Another worksheet stores dashboards.*
+- **Better security:** *Specific worksheets can be protected while leaving others editable.*
+
+---
+
+##### **Rows, Columns and Cells**
+
+**What is a Row?**
+
+- *A Row is a horizontal line of cells in an Excel worksheet.*
+- *Rows run from left to right.*
+- *Each row is identified by a number.*
+
+**Example:**
+      A      B      C      D
+1
+2
+3
+4
+5
+
+*The numbers 1, 2, 3, 4, 5 represents Rows.*
+
+**Example:** *Imagine a company with 5000 employees. Each employee's information occupies one row.*
+
+| Row  | Employee      |
+| ---- | ------------- |
+| 2    | Ravi          |
+| 3    | Priya         |
+| 4    | Kiran         |
+| ...  | ...           |
+| 5001 | Last Employee |
+
+*This makes it easy to store and manage employee records.*
+
+---
+
+**Characteristics of Rows**
+
+- *Horizontal*
+- *Numbered*
+- *Store one complete record*
+- *Start from Row 1*
+
+---
+
+**Maximum number of Rows**
+
+- *Modern Excel (Excel 2007 and later supports) 1,048,576 rows.*
+- *This means you can store over 1 million records in a single worksheet.*
+
+**Why is this important?**
+
+*Suppose an e-commerce company has 800,000 customer orders. Since excel supports over 1 million rows, all these orders can fit in one worksheet. If the data exceeds this limit, tools like SQL or databases are more suitable.*
+
+---
+
+**What is a Column?**
+
+- *A Column is a vertical line of cells in an Excel worksheet.*
+- *Columns run from top to bottom.*
+- *Each column is identified by letters.*
+
+**Example:**
+A    B    C    D
+│    │    │    │
+│    │    │    │
+│    │    │    │
+
+*Columns are labeled: A B C D ..... After Z excel continues with AA AB AC .... AZ BA BB ...*
+
+**Example:** *In a company's employee database*
+| Column | Stores       |
+| ------ | ------------ |
+| A      | Employee ID  |
+| B      | Name         |
+| C      | Department   |
+| D      | Salary       |
+| E      | Joining Date |
+
+*Each column represents a specific field or attribute.*
+
+---
+
+**Characteristics of Columns**
+
+- *Vertical*
+- *Lettered*
+- *Store one category of information*
+- *Start from column A*
+
+---
+
+**Maximum number of columns**
+
+- *Modern excel supports 16,384 columns. The last column is XFD. So excel columns go from A B C D ....XFD.*
+
+**Why is this important?**
+
+*Imagine a hospital database with many details Patient ID, Name, Age, Gender, Blood Group, Address, Phone Number, Diagnosis, Doctor, Admission Date, Discharge Date. Each detail gets its own column.*
+
+---
+
+**What is a Cell?**
+
+- *A Cell is the intersection of a Row and a Column.*
+- *A Cell is the smallest unit in an excel worksheet where you enter data.*
+
+**Example:**
+      A      B      C
+1
+2            ●
+3
+
+*The highlighted point is where Column B and Row 2 meet. That cell is called B2.*
+
+**Example:**
+| A           | B    | C      |
+| ----------- | ---- | ------ |
+| Employee ID | Name | Salary |
+| E101        | Ravi | 35000  |
+
+- *The cell containing Ravi is B2.*
+- *The cell containing 35000 is C2.*
+
+---
+
+**What can a cell contain?**
+
+*A Cell can contain Text(Ravi), Numbers(6789), Dates(28-06-2026), Time(10:30 AM), Formulas(=A1+B1), Functions(=SUM(A1:A10))*
+
+---
+
+**Cell Address(Cell Reference)**
+
+- *Every cell has a unique address.*
+- *A cell address is formed by combining Column Letter + Row Number.*
+
+**Example:**
+| Cell Address | Meaning          |
+| ------------ | ---------------- |
+| A1           | Column A, Row 1  |
+| B2           | Column B, Row 2  |
+| C5           | Column C, Row 5  |
+| D10          | Column D, Row 10 |
+
+**Example:**
+      A       B        C
+
+1   Name    Age     City
+
+2   Ravi    22    Hyderabad
+
+- *Ravi is A2*
+- *22 is B2*
+- *Hyderabad is C2*
+
+**Why are cell addresses important?**
+
+- *Excel formulas use cell addresses.*
+  - **Example:** *=A1+B2* *Instead of =100+200*
+- *Using cell addresses makes formulas dynamic. If the values in A2 or B2 change, the result updates automatically.*
+
+---
+
+**Difference between Rows, Columns and Cells**
+
+| Feature    | Row        | Column   | Cell                           |
+| ---------- | ---------- | -------- | ------------------------------ |
+| Direction  | Horizontal | Vertical | Intersection of row and column |
+| Identifier | Numbers    | Letters  | Letter + Number                |
+| Example    | Row 5      | Column C | C5                             |
+
+**Example:**
+
+| A          | B     | C     | D       |
+| ---------- | ----- | ----- | ------- |
+| Student ID | Name  | Maths | Science |
+| 101        | Ravi  | 90    | 85      |
+| 102        | Priya | 95    | 92      |
+
+---
+
+##### **Active Cell**
 
 
 
