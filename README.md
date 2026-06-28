@@ -388,11 +388,11 @@ Hey everybody!!
 **Example:**
 - *Suppose your workbook is `**Employee_Data.xlsx**`.*
 - *Inside it, you have:*
- - *Employees*
- - *Attendance*
- - *Salary*
- - *Leaves*
- - *Performance*
+  - *Employees*
+  - *Attendance*
+  - *Salary*
+  - *Leaves*
+  - *Performance*
 
 *Each one is a Worksheet.*
 
