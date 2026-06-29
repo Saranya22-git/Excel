@@ -622,6 +622,91 @@ Hey everybody!!
 
 ##### **Active Cell**
 
+**What is an Active Cell?**
+
+- *An Active Cell is the currently selected cell in a worksheet where you can enter, edit or delete data.*
+- *Only one cell can be active at a time.*
+
+**Example:**
+| A     | B   | C         |
+| ----- | --- | --------- |
+| Name  | Age | City      |
+| Ravi  | 22  | Hyderabad |
+| Priya | 21  | Chennai   |
+
+*If you click on B2, it becomes the Active Cell.*
+
+---
+
+**How to identify an Active Cell?**
+
+- *An Active Cell has a thick border (outline) around it.*
+
+---
+
+**Characteristics of Active Cell**
+*An Active Cell:*
+- *Is currently selected*
+- *Has a thick border*
+- *Can receive data*
+- *Can contain text, numbers, dates, formulas or functions*
+- *Only one cell is active at a time*
+
+---
+
+**Difference between Cell and Active Cell**
+
+| Cell                        | Active Cell                           |
+| --------------------------- | ------------------------------------- |
+| Any box in the worksheet    | The currently selected cell           |
+| May or may not contain data | Ready for data entry                  |
+| Millions of cells exist     | Only one Active Cell exists at a time |
+
+---
+
+**How to move the Active Cell?**
+
+*There are several ways*
+
+**Method-1:** *Mouse*
+- *Click any cell*
+- *That cell becomes active.*
+
+**Method-2:** *Arrow Keys*
+*Use*
+- *Up Arrow*
+- *Down Arrow*
+- *Left Arrow*
+- *Right Arrow*
+
+*Each key moves the Active cell by one cell.*
+
+**Method-3:** *Tab Key*
+- *Press Tab*
+- *The Active Cell moves one column to the right.*
+
+**Method-4:** *Enter Key*
+- *Press Enter*
+- *The Active Cell moves one row down.*
+
+---
+
+**Keyboard Shortcuts**
+| Shortcut      | Action                              |
+| ------------- | ----------------------------------- |
+| Arrow Keys    | Move one cell                       |
+| Tab           | Move right                          |
+| Shift + Tab   | Move left                           |
+| Enter         | Move down                           |
+| Shift + Enter | Move up                             |
+| Home          | Move to Column A of the current row |
+| Ctrl + Home   | Move to A1                          |
+| Ctrl + End    | Move to the last used cell          |
+
+---
+
+**Why is the Active Cell important?**
+
 
 
 
