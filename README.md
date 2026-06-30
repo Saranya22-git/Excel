@@ -11,6 +11,7 @@ Hey everybody!!
     - [**Workbook vs Worksheet**](#workbook-vs-worksheet)
     - [**Rows, Columns and Cells**](#rows-columns-and-cells)
     - [**Active Cell**](#active-cell)
+    - [**Cell Address**](#cell-address)
 
 ### **Excel Fundamentals**
 
@@ -736,6 +737,100 @@ Hey everybody!!
 - *Whenever you select a cell, the Name Box displays its address.*
 
 ---
+
+##### **Cell Address**
+
+**What is a Cell Address?**
+
+- *A Cell Address (also called a Cell Reference) is the unique location or identifier of a cell in an Excel worksheet.*
+- *It tells excel exactly which cell you want to read from or write to.*
+- *A Cell Address is formed by combining Column Letter + Row Number.*
+
+**Example:**
+
+| Cell Address | Meaning                               |
+| ------------ | ------------------------------------- |
+| A1           | Column A, Row 1                       |
+| B5           | Column B, Row 5                       |
+| C10          | Column C, Row 10                      |
+| H25          | Column H, Row 25                      |
+| XFD1048576   | Last cell in a modern Excel worksheet |
+
+---
+
+**Why does excel need cell addresses?**
+
+- *If a teacher says "Give this paper to the student". No one knows which student. But if the teacher says "Give this paper to Roll No. 25". Everyone knows exactly who the teacher means.*
+- *Instead of saying "Use that cell". Excel needs something precide like B5 so it knows exactly which cell you mean.*
+
+---
+
+**How Excel uses Cell Addresses?**
+
+*Excel uses cell addresses in:*
+
+- *Formulas*
+- *Functions*
+- *Charts*
+- *Pivot Tables*
+- *Conditional Formatting*
+- *Data Validation*
+- *Lookups*
+- *Dashboards*
+
+*Almost every advanced excel feature depends on cell reference.*
+
+**Example:**
+| A  | B  |
+| -- | -- |
+| 10 | 20 |
+
+**Formula:** =A1+B1
+
+*Excel read A1-10 B1-20 Result=30. Notice that we are referring to cell addresses not typing 10+20.*
+
+---
+
+**Why is this better?**
+
+*Suppose A1 changes from 10 to 50. The formula automatically updates =A1+B1 50+20=70. If you had written =10+20. The result would always stay 30. This is why cell reference make excel dynamic.*
+
+---
+
+**Types of References**
+
+*There are 3 types.*
+
+| Type               | Example    |
+| ------------------ | ---------- |
+| Relative Reference | A1         |
+| Absolute Reference | $A$1       |
+| Mixed Reference    | A$1 or $A1 |
+
+---
+
+**Range References**
+
+- *Sometimes we refer to more than one cell. Instead of A1 A2 A3 A4 A5 A6.....*
+- *Excel allows us to write A1:A5*
+- *This is called a Range References.*
+- *The colon (:) means from..to.*
+
+**Examples:**
+
+| Reference | Meaning                           |
+| --------- | --------------------------------- |
+| A1:A10    | Cells A1 through A10              |
+| B2:B20    | Cells B2 through B20              |
+| C5:F10    | Rectangle of cells from C5 to F10 |
+
+**Example:** *A teacher has marks for students in cells B2 to B31. To calculate the total =SUM(B2:B31). Instead of adding =B2+B3+B4+B5+B6+........ The range reference makes the formula shorter and easier to maintain.*
+
+---
+
+**Entire Column References**
+
+
 
 
 
