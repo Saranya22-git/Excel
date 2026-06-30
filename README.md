@@ -645,7 +645,9 @@ Hey everybody!!
 ---
 
 **Characteristics of Active Cell**
+
 *An Active Cell:*
+
 - *Is currently selected*
 - *Has a thick border*
 - *Can receive data*
