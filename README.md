@@ -709,6 +709,35 @@ Hey everybody!!
 
 **Why is the Active Cell important?**
 
+- **Data Entry:** *When you type Ravi. It goes into the Active Cell.*
+- **Formula Entry:** *If C2 is active and you type =A2+B2. The formula is stored is C2*
+- **Formatting:** *If you make the Active Cell Bold, only that selected cell(or selected range) is formatted.*
+- **Deleting Data:** *Pressing the Delete key clears the contents of the Active Cell.*
+
+---
+
+**Active Cell vs Cell Address**
+
+**Active Cell:** *The cell you are currently working on.*
+
+**Example:** *You clicked B5. So the Active Cell is B5.*
+
+**Cell Address:** *The name of that cell.*
+
+**Example:** *B5 is the cell address.*
+
+*The Active Cell is the selected cell and B5 is the cell address.*
+
+---
+
+**Name Box and Active Cell**
+
+- *Look at the top-left corner of excel. There is a Name Box.*
+- *Whenever you select a cell, the Name Box displays its address.*
+
+---
+
+
 
 
 
