@@ -12,6 +12,7 @@ Hey everybody!!
     - [**Rows, Columns and Cells**](#rows-columns-and-cells)
     - [**Active Cell**](#active-cell)
     - [**Cell Address**](#cell-address)
+    - [**Range**](#range)
 
 ### **Excel Fundamentals**
 
@@ -828,29 +829,63 @@ Hey everybody!!
 
 ---
 
-**Range References**
+##### **Range**
 
-- *Sometimes we refer to more than one cell. Instead of A1 A2 A3 A4 A5 A6.....*
-- *Excel allows us to write A1:A5*
-- *This is called a Range References.*
-- *The colon (:) means from..to.*
+**What is a Range?**
 
-**Examples:**
-
-| Reference | Meaning                           |
-| --------- | --------------------------------- |
-| A1:A10    | Cells A1 through A10              |
-| B2:B20    | Cells B2 through B20              |
-| C5:F10    | Rectangle of cells from C5 to F10 |
-
-**Example:** *A teacher has marks for students in cells B2 to B31. To calculate the total =SUM(B2:B31). Instead of adding =B2+B3+B4+B5+B6+........ The range reference makes the formula shorter and easier to maintain.*
+- *A Range is a group of one or more cells in an Excel worksheet.*
+- *It is used to perform operations such as calculations, formatting, sorting, filtering, and applying functions to multiple cells at once.*
 
 ---
 
-**Entire Column References**
+**Example:** *Imagine you're working as HR*
 
+| Employee | Salary |
+| -------- | -----: |
+| Ravi     |  40000 |
+| Priya    |  50000 |
+| Kiran    |  45000 |
+| Arun     |  42000 |
 
+*You want the total salary. Instead of selecting each salary one by one, you use the range B2:B5 then =SUM(B2:B5). Excel calculates the total instantly.*
 
+---
+
+**Types of Ranges**
+
+1. **Single Cell Range:** *Only one cell.*
+
+**Example:** *A1*
+
+2. **Continuous (Contiguous) Range:** *Cells are connected.*
+
+**Example:** *A1:A5*
+
+3. **Non-Continuous (Non-Contiguous) Range:** *Cells are not connected.*
+
+**Example:** *A1, C1, E1*
+
+---
+
+**How do we write a Range?**
+
+*Starting Cell : Ending Cell*
+
+**Examples:**
+
+| Range  | Meaning              |
+| ------ | -------------------- |
+| A1:A10 | Cells from A1 to A10 |
+| B2:B8  | Cells from B2 to B8  |
+| C3:F8  | Rectangle of cells   |
+
+---
+
+**Where are Ranges used?**
+
+*Ranges are used in SUM, AVERAGE, MAX, MIN, COUNT, Pivot Tables, Charts, Conditional Formatting, Data Validation, Sorting, Filtering.*
+
+---
 
 
 
