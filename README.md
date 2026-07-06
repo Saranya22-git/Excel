@@ -13,6 +13,7 @@ Hey everybody!!
     - [**Active Cell**](#active-cell)
     - [**Cell Address**](#cell-address)
     - [**Range**](#range)
+    - [**Name Box**](#name-box)
 
 ### **Excel Fundamentals**
 
@@ -887,6 +888,7 @@ Hey everybody!!
 
 ---
 
+##### **Name Box**
 
 
 
