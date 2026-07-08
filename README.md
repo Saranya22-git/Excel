@@ -932,5 +932,9 @@ Hey everybody!!
 
 ##### **Formula Bar**
 
+**What is a Formula Bar?**
+
+*The Formula Bar is located above the worksheet and to the right of the Name Box. It displays the contents of the active cell, including text, numbers, and formulas, and allows users to enter or edit them.*
+
 
 
