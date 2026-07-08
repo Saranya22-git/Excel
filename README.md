@@ -14,6 +14,7 @@ Hey everybody!!
     - [**Cell Address**](#cell-address)
     - [**Range**](#range)
     - [**Name Box**](#name-box)
+    - [**Formula Bar**](#formula-bar)
 
 ### **Excel Fundamentals**
 
@@ -890,6 +891,46 @@ Hey everybody!!
 
 ##### **Name Box**
 
+**What is a Name Box?**
+
+*The Name Box is a feature in Microsoft Excel located to the left of the Formula Bar. It displays the address of the currently active cell and allows users to quickly navigate to a specific cell or range.*
+
+---
+
+**Why do we need the Name Box?**
+
+- *Imagine you have an Excel sheet with 50,000 rows. You need to go directly to cell H35000. Would you scroll all the way down? Very Slow.*
+- *Instead type H35000 in the Name Box and press Enter. Excel instantly jumps to that cell.*
+
+---
+
+**Where is the Name Box?**
+
+*It is located above the worksheet to the left of the Formula Bar.*
+
+---
+
+**What does the Name Box do?**
+
+1. **Shows the Actice Cell Address:** *Click cell C2. Name box displays C2.*
+2. **Navigate to any cell:** *Type B500 in the Name Box. Press Enter. Excel jumps directly to B500.*
+3. **Navigate to a range:** *Type A1:C10 in the Name Box. Press Enter. Excel selects the entire range A1:C10.*
+4. **Create Named ranges(advanced):** *Instead of =SUM(B2:B20). You can name the range 'Sales' and use =SUM(Sales).*
+
+---
+
+**Advantages**
+
+*The Name Box helps you:*
+- *Navigate quickly*
+- *Save Time*
+- *Avoid excessive scrolling*
+- *Display the Active cell address*
+- *Select ranges quickly*
+
+---
+
+##### **Formula Bar**
 
 
 
