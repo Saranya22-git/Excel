@@ -982,14 +982,26 @@ Hey everybody!!
 
 *The Ribbon is made up of three levels.*
 
-Ribbon
-   │
-   ├── Tabs
-   │      │
-   │      ├── Groups
-   │      │      │
-   │      │      ├── Commands
+- *Ribbon*
+- *Tabs* 
+  -  *Groups*
+  -  *Commands*
 
+**Ribbon**
+
+**Home Tab** 
+- *Clipboard Group*
+  - *Cut*
+  - *Copy*
+  - *Paste* 
+- *Font Group*
+  - *Bold*
+  - *Italic*
+  - *Font Size* 
+- *Alignment Group*
+  - *Center*
+  - *Left*
+  - *Right* 
 ---
 
 
