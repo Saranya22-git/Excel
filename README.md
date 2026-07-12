@@ -959,7 +959,7 @@ Hey everybody!!
 1. **Displays Cell Contents:** *Suppose cell A2 contains Ravi. Click A2. Formula Bar shows Ravi.*
 2. **Display Formulas:** *Suppose cell D10 contains =SUM(B2:B9). The worksheet may display 35000. But the Formula Bar shows =SUM(B2:B9).*
 3. **Edit Data:** *Suppose cell A2 contains Ravi. You want Ravi Kumar. Instead of typing again, Click A2. Edit directly in the Formula Bar.*
-4. **Edit Long Formulas:** *Imagine **=IF(B2>50000,ROUND(B2*0.10,2),ROUND(B2*0.05,2))**. This is difficult to edit inside a small cell. The Formula Bar gives much more space.*
+4. **Edit Long Formulas:** *Imagine =IF(B2>50000,ROUND(B2*0.10,2),ROUND(B2*0.05,2)). This is difficult to edit inside a small cell. The Formula Bar gives much more space.*
 
 ---
 
