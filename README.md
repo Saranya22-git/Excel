@@ -616,11 +616,10 @@ Hey everybody!!
 
 **Example:**
 
-      A       B        C
-
-1   Name    Age     City
-
-2   Ravi    22    Hyderabad
+|      A   |    B   |     C     |
+|----------|--------|-----------|
+|1   Name  |  Age   |  City     |
+|2   Ravi  |  22    | Hyderabad |
 
 - *Ravi is A2*
 - *22 is B2*
