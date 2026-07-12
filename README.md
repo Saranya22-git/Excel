@@ -21,6 +21,8 @@ Hey everybody!!
     - [**Groups**](#groups)
     - [**Quick Access Toolbar**](#quick-access-toolbar)
     - [**Status Bar**](#status-bar)
+    - [**Sheet Tabs**](#sheet-tabs)
+    - [**Zoom Controls**](#zoom-controls)
 
 ### **Excel Fundamentals**
 
@@ -1365,4 +1367,123 @@ Ribbon
 - *Improves productivity*
 
 ---
+
+##### **Sheet Tabs**
+
+**What are Sheet Tabs?**
+
+*Sheet Tabs are located at the bottom of an Excel workbook. They represent individual worksheets and allow users to navigate, organize, and manage multiple worksheets within a single workbook.*
+
+---
+
+**Where are Sheet Tabs located?**
+
+*Sheet Tabs are located:*
+- *At the bottom-left corner of the Excel window.*
+- *Just above the Status Bar.*
+
+---
+
+**What can you do with Sheet Tabs?**
+
+*You can:*
+- *Switch between worksheets*
+- *Add a new worksheet*
+- *Rename a worksheet*
+- *Delete a worksheet*
+- *Move worksheets*
+- *Copy worksheets*
+- *Change tab color*
+- *Hide/Unhide worksheets*
+
+---
+
+**Why are Sheet Tabs important?**
+
+*Sheet Tabs help you:*
+- *Organize related data*
+- *Separate information logically*
+- *Navigate between worksheets quickly*
+- *Manage large projects efficiently*
+
+---
+
+**Advantages**
+
+*Sheet Tabs help you:*
+- *Organize data*
+- *Navigate quickly*
+- *Manage related information*
+- *Reduce file clutter*
+- *Improve productivity*
+
+---
+
+##### **Zoom Controls**
+
+**What are Zoom Controls?**
+
+*Zoom Controls are located at the bottom-right corner of the Excel window on the Status Bar. They allow users to zoom in or zoom out to change the worksheet's viewing size without affecting the actual data or formatting.*
+
+---
+
+**Where are Zoom Controls located?**
+
+*Zoom Controls are located:*
+- *At the bottom-right corner of the Excel Window.*
+- *On the Status Bar*
+
+---
+
+**What can you do with Zoom Controls?**
+
+**Zoom In:** *Makes everything appear larger on your screen.*
+
+**Example:** *100% -> 150%*
+
+*Useful when:*
+- *Reading small text*
+- *Presenting data*
+- *Editing detailed reports*
+
+**Zoom Out:** *Makes everything appear smaller.*
+
+**Example:** *100% -> 80%*
+
+*Useful when:*
+- *Viewing large worksheets*
+- *Seeing more rows and columns at once*
+
+**Zoom Percentage:** *Excel shows the current zoom level.*
+
+**Example:** *50%, 75%, 100%, 125%, 150%, 200%*
+
+*100% is the default zoom level in most Excel workbooks.*
+
+---
+
+**Does Zoom affect the actual data?**
+
+- *No. Zoom Controls only change how the worksheet appears on your screen.*
+- *They do not change:*
+  - *Font Size*
+  - *Cell Size*
+  - *Data*
+  - *Formatting*
+  - *Print output*
+
+---
+
+**Advantages**
+
+*Zoom Controls help you:*
+- *Read small text easily*
+- *View large worksheets*
+- *Present reports clearly*
+- *Improve user comfort*
+- *Switch between detailed and overview views quickly*
+
+---
+
+
 
