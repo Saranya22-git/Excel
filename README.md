@@ -18,6 +18,7 @@ Hey everybody!!
   - [**Excel Interface**](#excel-interface)
     - [**Ribbon**](#ribbon)
     - [**Tabs**](#tabs)
+    - [**Groups**](#groups)
 
 ### **Excel Fundamentals**
 
@@ -1132,3 +1133,107 @@ Hey everybody!!
 
 ---
 
+##### **Groups**
+
+**What are Groups?**
+
+*A Group is a section within a Ribbon Tab that contains related commands used to perform similar tasks. Groups help organize commands, making them easier to locate and use.*
+
+---
+
+**Where are groups located?**
+
+*Groups are found inside Tabs.*
+
+```text
+Ribbon
+│
+├── Home Tab
+│      │
+│      ├── Clipboard Group
+│      ├── Font Group
+│      ├── Alignment Group
+│      ├── Number Group
+│      ├── Styles Group
+│      ├── Cells Group
+│      └── Editing Group
+```
+
+*Every Tab contains one or more Groups*
+
+---
+
+**Commom Groups in the Home Tab**
+
+**Clipboard Group:** *Used for:*
+- *Cut*
+- *Copy*
+- *Paste*
+- *Format Painter*
+
+**Example:** *Copying employee data from one worksheet to another.*
+
+**Font Group:** *Used for:*
+- *Font Style*
+- *Font Size*
+- *Bold*
+- *Italic*
+- *Underline*
+- *Font Color*
+- *Fill Color*
+
+**Example:** *Making report headings bold and increasing the font size.*
+
+**Alignment Group:** *Used for:*
+- *Left Align*
+- *Right Align*
+- *Center Align*
+- *Wrap Text*
+- *Merge & Center*
+
+**Example:** *Center-aligning a report title.*
+
+**Number Group:** *Used for:*
+- *Currency*
+- *Percentage*
+- *Decimal Places*
+- *Date Format*
+- *Time Format*
+
+**Example:** *Displaying salaries in currency format.*
+
+**Styles Group:** *Used for:*
+- *Cell Styles*
+- *Conditional Formatting*
+- *Format as Table*
+
+**Example:** *Highlighting top-performing employees.*
+
+**Cells Group:** *Used for:*
+- *Insert Cells*
+- *Delete Cells*
+- *Format Cells*
+
+**Example:** *Adding a new column for employee bonuses.*
+
+**Editing Group:** *Used for:*
+- *AutoSum*
+- *Fill*
+- *Clear*
+- *Sort & Filter*
+- *Find & Select*
+
+**Example:** *Finding a specific employee quickly.*
+
+---
+
+**Advantages**
+
+*Groups help users:*
+- *Organize commands logically*
+- *Find tools quickly*
+- *Improve productivity*
+- *Reduce confusion*
+- *Make excel easier to learn*
+
+---
