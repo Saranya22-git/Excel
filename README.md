@@ -19,6 +19,7 @@ Hey everybody!!
     - [**Ribbon**](#ribbon)
     - [**Tabs**](#tabs)
     - [**Groups**](#groups)
+    - [**Quick Access Toolbar**](#quick-access-toolbar)
 
 ### **Excel Fundamentals**
 
@@ -1237,3 +1238,70 @@ Ribbon
 - *Make excel easier to learn*
 
 ---
+
+##### **Quick Access Toolbar**
+
+**What is the Quick Access Toolbar?**
+
+*The Quick Access Toolbar is a customizable toolbar located at the top-left corner of the Excel window. It provides quick access to frequently used commands such as Save, Undo, and Redo, regardless of the active Ribbon Tab*
+
+---
+
+**Where is the Quick Access Toolbar located?**
+
+*The Quick Access Toolbar is located:*
+- *At the top-left corner of the Excel window.*
+- *Above or below the Ribbon (depending on user settings)*
+
+---
+
+**Default commands in the Quick Access Toolbar**
+
+*By default, the Quick Access Toolbar usually contains:*
+
+| Command | Purpose                    |
+| ------- | -------------------------- |
+| 💾 Save | Saves the workbook         |
+| ↩ Undo  | Reverses the last action   |
+| ↪ Redo  | Restores the undone action |
+
+---
+
+**Can we customize it?**
+
+*Yes! You can add your favorite commands such as:*
+- *Print*
+- *New Workbook*
+- *Open*
+- *Quick Print*
+- *Sort*
+- *Filter*
+- *Spelling Check*
+- *Email*
+
+**Example:** *Suppose you use Print many times every day. Instead of opening the File menu every time, you can add Print to the Quick Access Toolbar. This saves time.*
+
+---
+
+**Difference between Ribbon and Quick Access Toolbar**
+
+| Ribbon                         | Quick Access Toolbar                   |
+| ------------------------------ | -------------------------------------- |
+| Contains all Excel commands    | Contains only frequently used commands |
+| Organized into Tabs and Groups | Small customizable toolbar             |
+| Changes based on selected Tab  | Always visible                         |
+| Large command area             | Small command area                     |
+
+---
+
+**Advantages**
+
+*The Quick Access Toolbar:*
+- *Saves Time*
+- *Reduces repeated clicks*
+- *Improves productivity*
+- *Provides quick access to commonly used commands*
+- *Can be customized according to user needs*
+
+---
+
