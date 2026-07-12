@@ -615,6 +615,7 @@ Hey everybody!!
 | D10          | Column D, Row 10 |
 
 **Example:**
+
       A       B        C
 
 1   Name    Age     City
