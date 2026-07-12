@@ -20,6 +20,7 @@ Hey everybody!!
     - [**Tabs**](#tabs)
     - [**Groups**](#groups)
     - [**Quick Access Toolbar**](#quick-access-toolbar)
+    - [**Status Bar**](#status-bar)
 
 ### **Excel Fundamentals**
 
@@ -1302,6 +1303,66 @@ Ribbon
 - *Improves productivity*
 - *Provides quick access to commonly used commands*
 - *Can be customized according to user needs*
+
+---
+
+##### **Status Bar**
+
+**What is the Status Bar?**
+
+*The Status Bar is located at the bottom of the Excel window. It displays information about the current worksheet, selected cells, and workbook status. It also provides quick calculations such as Sum, Average, Count, and zoom controls.*
+
+---
+
+**Where is the Status Bar located?**
+
+*The Status Bar is located:*
+- *At the bottom of the Excel window*
+- *Below the worksheet*
+
+---
+
+**What information does the Status Bar show?**
+
+*The Status Bar can display:*
+- *Ready*
+- *Enter*
+- *Edit*
+- *Sum*
+- *Average*
+- *Count*
+- *Numerical Count*
+- *Minimum*
+- *Maximum*
+- *Zoom Percentage*
+- *View Shortcuts*
+
+---
+
+**Can we customize the Status Bar?**
+
+*Yes. Right-click on the Status Bar. You can choose to display:*
+- *Sum*
+- *Average*
+- *Count*
+- *Maximum*
+- *Minimum*
+- *Numerical Count*
+- *Zoom slider*
+- *View shortcuts*
+
+*Only the options you select will appear.*
+
+---
+
+**Advantages**
+
+*The Status Bar:*
+- *Saves Time*
+- *Shows quick calculations*
+- *Displays worksheet status*
+- *Provides zoom controls*
+- *Improves productivity*
 
 ---
 
