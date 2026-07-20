@@ -26,6 +26,8 @@ Hey everybody!!
   - [**Working with Worksheets**](#working-with-worksheets)
     - [**Create Workbook**](#create-workbook)
     - [**Save Workbook**](#save-workbook)
+    - [**Open Workbook**](#open-workbook)
+    - [**Rename Sheet**](#rename-sheet)
 
 ### **Excel Fundamentals**
 
@@ -1563,7 +1565,96 @@ Ribbon
 
 ---
 
+##### **Open Workbook**
 
+*Opening a Workbook is the process of accessing an existing Excel file from a storage location to view, edit, update, or analyze its data.*
+
+---
+
+**How to Open a Workbook?**
+
+**Method-1:** *From the File Menu*
+
+1. *Open Microsoft Excel*
+2. *Click File*
+3. *Click Open*
+4. *Browse to the folder where the worksheet is saved*
+5. *Select the workbook*
+6. *Click open*
+
+**Method-2:** *Double-Click the File*
+
+*If you see the workbook in File Explorer. Simply double-click it, and excel opens the workbook.*
+
+**Method-3:** *Keyboard Shortcut*
+
+*Press **Ctrl + O**. This opens the Open dialog, allowing you to browse and select a workbook.*
+
+**Method-4:** *Open a Recent Workbook*
+
+1. *Open Excel*
+2. *Click File → Open → Recent*
+3. *Select one of the recently opened workbooks*
+
+*This saves time if you frequently work on the same files.*
+
+---
+
+##### **Rename Sheet**
+
+*Renaming a Sheet is the process of changing the default worksheet name to a meaningful name, making the workbook easier to understand, organize, and navigate.*
+
+---
+
+**Why do we Rename Sheets?**
+
+*When you create a workbook, Excel gives worksheet names like Sheet1, Sheet2, Sheet3. These names don't tell you what's inside the worksheet. Instead, rename them to something meaningful.*
+
+| Default Name | Better Name |
+| ------------ | ----------- |
+| Sheet1       | Employees   |
+| Sheet2       | Attendance  |
+| Sheet3       | Payroll     |
+| Sheet4       | Dashboard   |
+
+*Now anyone opening the workbook immediately understands its structure.*
+
+---
+
+**How to Rename a Sheet?**
+
+**Method-1:** *Double-Click the Sheet Tab*
+
+1. *Double-Click Sheet1*
+2. *The name becomes editable*
+3. *Type the new name*
+4. *Press Enter*
+
+**Method-2:** *Right-Click*
+
+1. *Right-Click the Sheet Tab*
+2. *Click Rename*
+3. *Type the new name*
+4. *Press Enter*
+
+**Method-3:** *Home Tab*
+
+1. *Go to Home tab*
+2. *Click Format (Cells group)*
+3. *Select Rename Sheet*
+4. *Type the new name*
+5. *Press Enter*
+
+---
+
+**Worksheet Naming Rules**
+
+*Excel has some rules for worksheet names.*
+
+- **Maximum Length:** *A worksheet name can contain upto 31 characters.*
+- **Invalid Characters:** *You cannot use these characters \ / ? * [ ] :*
+- **Duplicate Names:** *Within the same workbook, two worksheets cannot have the same name.*
+- **Spaces are allowed:** ***"Monthly Sales, Employee Details"** *these are perfectly valid worksheet names.*
 
 
 
