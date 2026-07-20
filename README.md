@@ -23,6 +23,9 @@ Hey everybody!!
     - [**Status Bar**](#status-bar)
     - [**Sheet Tabs**](#sheet-tabs)
     - [**Zoom Controls**](#zoom-controls)
+  - [**Working with Worksheets**](#working-with-worksheets)
+    - [**Create Workbook**](#create-workbook)
+    - [**Save Workbook**](#save-workbook)
 
 ### **Excel Fundamentals**
 
@@ -1038,7 +1041,7 @@ Hey everybody!!
 
 **What are Tabs?**
 
-*Tabs are the main categories available on the Ribbon in Microsoft Excel. Each Tab contains related Groupds and Commands that help users perform specific tasks efficiently.*
+*Tabs are the main categories available on the Ribbon in Microsoft Excel. Each Tab contains related Groups and Commands that help users perform specific tasks efficiently.*
 
 ---
 
@@ -1484,6 +1487,44 @@ Ribbon
 - *Switch between detailed and overview views quickly*
 
 ---
+
+#### **Working with Worksheets**
+
+##### **Create Workbook**
+
+*Creating a Workbook means creating a new Microsoft Excel file that contain one or more worksheets for storing, organizing, and analyzing data.*
+
+---
+
+**How to Create a Workbook?**
+
+**Method-1:** *Open Excel*
+
+1. *Open Microsoft Excel*
+2. *Click Blank Workbook*
+3. *A new workbook is created.*
+
+---
+
+**Method-2:** *Keyboard Shortcut*
+
+*In Excel press **Ctrl + N** A new workbook opens instantly.*
+
+---
+
+**Method-3:** *From File Menu*
+
+1. *Click File*
+2. *Click New*
+3. *Select Blank Workbook*
+
+---
+
+##### **Save Workbook**
+
+
+
+
 
 
 
