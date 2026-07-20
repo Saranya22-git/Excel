@@ -1504,13 +1504,10 @@ Ribbon
 2. *Click Blank Workbook*
 3. *A new workbook is created.*
 
----
-
 **Method-2:** *Keyboard Shortcut*
 
-*In Excel press **Ctrl + N** A new workbook opens instantly.*
-
----
+- *In Excel press **Ctrl + N*** 
+- *A new workbook opens instantly.*
 
 **Method-3:** *From File Menu*
 
@@ -1521,6 +1518,52 @@ Ribbon
 ---
 
 ##### **Save Workbook**
+
+*Saving a Workbook is the process of storing an Excel file with its data, formulas, formatting, and worksheets in a chosen location for future use.*
+
+---
+
+**How to Save a Workbook?**
+
+**Method-1:** *Keyboard Shortcut*
+
+- *Press Ctrl + S*
+- *If the workbook has never been saved before:*
+  - *A **Save As** window opens.*
+  - *Choose a location*
+  - *Enter a file name*
+  - *Click Save* 
+- *If the workbook is already saved:*
+  - *Pressing Ctrl + S simply updates the existing file.*
+
+---
+
+**Method-2:** *Save Button*
+
+*Click the Save (💾) icon on the Quick Access Toolbar.*
+
+**Method-3:** *File Menu*
+
+1. *Click File*
+2. *Click Save*
+3. *Choose a location (only the first time)*
+4. *Enter the file name*
+5. *Click Save*
+
+---
+
+**Difference Between Save vs Save As**
+
+| Save                      | Save As                                 |
+| ------------------------- | --------------------------------------- |
+| Updates the existing file | Creates a new copy of the file          |
+| Keeps the same file name  | Allows a new file name                  |
+| Keeps the same location   | Can choose a different location         |
+| Shortcut: **Ctrl + S**    | Shortcut: **F12** *(or File → Save As)* |
+
+---
+
+
 
 
 
