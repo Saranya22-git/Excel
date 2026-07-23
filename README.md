@@ -1846,9 +1846,54 @@ Ribbon
 
 ##### **Protect Sheet**
 
-**
+- *Protect Sheet means restricting users from making changes to a worksheet, such as editing cells, deleting data, or changing formulas.*
+- *The worksheet remains visible, but certain actions are not allowed.*
 
+---
 
+**How to Protect a Worksheet?**
+
+**Method-1:** *Review Tab*
+
+1. *Click the Review Tab*
+2. *Click Protect Sheet*
+3. *Enter a password (optional but recommended)*
+4. *Choose what users are allowed to do*
+5. *Click OK*
+6. *Re-enter the password if prompted*
+
+*The worksheet is now protected*
+
+**Method-2:** *Right-Click Sheet Tab*
+
+1. *Right-Click the worksheet tab*
+2. *Select Protect Sheet (if available is your excel version) or use the Review Tab.*
+
+---
+
+**What can users still do on a Protected Sheet?**
+
+*Depending on the options you choose, users may still be able to:*
+- *Select cells*
+- *Scroll through the worksheet*
+- *Sort data*
+- *Use filters*
+- *Select unlocked cells*
+
+*You decide what is allowed when protecting the sheet.*
+
+---
+
+**How to Unprotect a Worksheet?**
+
+*If you need to make changes later:*
+1. *Go to the Review Tab*
+2. *Click Unprotect Sheet*
+3. *Enter the password (if one was set)*
+
+*Now you can edit the worksheet again.*
+
+---
 
 
 

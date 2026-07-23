@@ -14,4 +14,5 @@
 | Ctrl + S      | Updates the existing file                                                   |
 | Ctrl + O      | This opens the Open dialog, allowing you to browse and select a workbook    |
 | Ctrl + Drag   | Excel creates a copy of the worksheet                                       |
+| Ctrl + Z      | Undo                                                                        |
 | 
