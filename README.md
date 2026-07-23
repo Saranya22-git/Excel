@@ -32,6 +32,7 @@ Hey everybody!!
     - [**Copy Sheet**](#copy-sheet)
     - [**Delete Sheet**](#delete-sheet)
     - [**Hide/Unhide Sheet**](#hideunhide-sheet)
+    - [**Protect Sheet**](#protect-sheet)
 
 ### **Excel Fundamentals**
 
@@ -1793,7 +1794,62 @@ Ribbon
 
 ##### **Hide/Unhide Sheet**
 
+**Hide Sheet**
+
+*Hiding a worksheet is the process of making a worksheet temporarily invisible while keeping all its data intact within the workbook.*
+
+**Unhide Sheet**
+
+*Unhiding a worksheet is the process of restoring a hidden worksheet so that it becomes visible and accessible again.*
+
+---
+
+**How to Hide a worksheet?**
+
+**Method-1:** *Right-Click*
+
+1. *Right-Click the worksheet tab*
+2. *Click Hide*
+
+*The worksheet disappears from the list of Sheet Tabs.*
+
+**Method-2:** *Home Tab*
+
+1. *Go to Home*
+2. *Click Format (Cells group)*
+3. *Select Hide & Unhide*
+4. *Click Hide Sheet*
+
+---
+
+**How to Unhide a Worksheet?**
+
+**Method-1:** *Right-Click*
+
+1. *Right-Click any visible worksheet tab*
+2. *Click Unhide*
+3. *Select the hidden worksheet*
+4. *Click OK*
+
+*The worksheet becomes visible again.*
+
+**Method-2:** *Home Tab*
+
+1. *Home*
+2. *Format*
+3. *Hide & Unhide*
+4. *Unhide Sheet*
+5. *Select the worksheet*
+6. *Click OK*
+
+---
+
+##### **Protect Sheet**
+
 **
+
+
+
 
 
 
