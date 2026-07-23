@@ -28,6 +28,10 @@ Hey everybody!!
     - [**Save Workbook**](#save-workbook)
     - [**Open Workbook**](#open-workbook)
     - [**Rename Sheet**](#rename-sheet)
+    - [**Move Sheet**](#move-sheet)
+    - [**Copy Sheet**](#copy-sheet)
+    - [**Delete Sheet**](#delete-sheet)
+    - [**Hide/Unhide Sheet**](#hideunhide-sheet)
 
 ### **Excel Fundamentals**
 
@@ -1656,7 +1660,140 @@ Ribbon
 - **Duplicate Names:** *Within the same workbook, two worksheets cannot have the same name.*
 - **Spaces are allowed:** ***"Monthly Sales, Employee Details"** *these are perfectly valid worksheet names.*
 
+---
 
+##### **Move Sheet**
+
+*Moving a worksheet is the process of changing its position within a workbook or transferring it to another workbook without creating a duplicate.*
+
+---
+
+**How to Move a Sheet?**
+
+**Method-1:** *Drag and Drop*
+
+1. *Click the worksheet tab*
+2. *Hold the left mouse button*
+3. *Drag the sheet left or right*
+4. *Release the mouse*
+
+**Method-2:** *Right Click → Move or Copy*
+
+1. *Right-Click the worksheet tab*
+2. *Click Move or Copy*
+3. *Choose the destination workbook*
+4. *Select where to place the sheet*
+5. *Click OK*
+
+---
+
+**Difference between Move and Copy**
+
+| Move Sheet                          | Copy Sheet                             |
+| ----------------------------------- | -------------------------------------- |
+| Original sheet changes location     | Original sheet stays in place          |
+| No duplicate is created             | A duplicate sheet is created           |
+| Used for reordering or transferring | Used for creating backups or templates |
+
+---
+
+##### **Copy Sheet**
+
+*Copying a worksheet is the process of creating an identical duplicate of an existing worksheet within the same workbook or in another workbook, while preserving the original worksheet.*
+
+---
+
+**How to Copy a Sheet?**
+
+**Method-1:** *Right-Click → Move or Copy*
+
+1. *Right-Click the worksheet tab*
+2. *Click Move or Copy*
+3. *Select the destination workbook*
+4. *Check ✔ Create a copy*
+5. *Choose the location*
+6. *Click OK*
+
+*A Duplicate worksheet is created.*
+
+**Method-2:** *Ctrl + Drag*
+
+1. *Hold the Ctrl Key*
+2. *Click and drag the worksheet tab*
+3. *Release the mouse*
+
+*Excel creates a copy of the worksheet*
+
+---
+
+**Move Sheet vs Copy Sheet**
+
+| Move Sheet                   | Copy Sheet                     |
+| ---------------------------- | ------------------------------ |
+| Changes the sheet's location | Creates a duplicate            |
+| Original sheet is moved      | Original sheet remains         |
+| No duplicate exists          | Duplicate is created           |
+| Used for reorganizing        | Used for templates and backups |
+
+---
+
+**Advantages of Copying Sheets**
+
+*Copying worksheets helps you:*
+- *Save time*
+- *Reuse templates*
+- *Maintain consistent formatting*
+- *Create backups*
+- *Avoid repetitive work*
+
+---
+
+##### **Delete Sheet**
+
+*Deleting a worksheet is the process of permanently removing an unwanted worksheet from an Excel workbook.*
+
+---
+
+**How to Delete a Worksheet?**
+
+**Method-1:** *Right-Click*
+
+1. *Right-Click the worksheet tab*
+2. *Click Delete*
+3. *Confirm if Excel asks for confirmation*
+
+*The worksheet is permanently removed.*
+
+**Method-2:** *Home Tab*
+
+1. *Go to Home*
+2. *Click Delete (Cells group)*
+3. *Select Delete Sheet*
+
+---
+
+**Can you Undo a Deleted Worksheet?**
+
+**Situation-1:** *Immediately After Deleting*
+
+*If you delete a sheet and have not saved or closed the workbook, you may be able to recover it by using **Ctrl + Z**.*
+
+**NOTE:** *In many versions of Excel, deleting a worksheet cannot be undone using Ctrl + Z. Because of this, you should always assume sheet deletion is permanent unless you've confirmed otherwise.*
+
+**Situation-2:** *After Saving and Closing*
+
+*Once the workbook is saved after deleting the sheet, recovering it is generally not possible unless you have:*
+- *A backup copy*
+- *Version history (for example, in OneDrive or SharePoint)*
+- *A previous saved versions*
+
+*So, always double-check before deleting a worksheet.*
+
+---
+
+##### **Hide/Unhide Sheet**
+
+**
 
 
 
