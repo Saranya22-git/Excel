@@ -1,7 +1,4 @@
-# 📊 EXCEL MASTER ROADMAP (Interview + Real-World + Data Analytics)
-
-> 🎯 Goal:
-> Become interview-ready for Data Analyst, Business Analyst, Python Developer, SQL Developer, Data Scientist, and Data Engineer roles.
+# 📊 EXCEL 
 
 ---
 
