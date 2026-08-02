@@ -8,7 +8,6 @@
 
 - What is Microsoft Excel?
 - Uses of Excel
-- Why Companies Use Excel
 - Workbook vs Worksheet
 - Rows
 - Columns

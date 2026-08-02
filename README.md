@@ -2,43 +2,45 @@ Hey everybody!!
 
 **EXCEL**
 
-### **Table of Contents**
+# **Table of Contents**
 - [**Table of Contents**](#table-of-contents)
 - [**Excel Fundamentals**](#excel-fundamentals)
   - [**Introduction to Excel**](#introduction-to-excel)
     - [**Excel**](#excel)
     - [**Uses of Excel**](#uses-of-excel)
     - [**Workbook vs Worksheet**](#workbook-vs-worksheet)
-    - [**Rows, Columns and Cells**](#rows-columns-and-cells)
-    - [**Active Cell**](#active-cell)
+    - [**Rows**](#rows)
+    - [**Column**](#column)
+    - [**Cells**](#cells)
+    - [**Active Cells**](#active-cells)
     - [**Cell Address**](#cell-address)
     - [**Range**](#range)
     - [**Name Box**](#name-box)
-    - [**Formula Bar**](#formula-bar)
-  - [**Excel Interface**](#excel-interface)
-    - [**Ribbon**](#ribbon)
-    - [**Tabs**](#tabs)
-    - [**Groups**](#groups)
-    - [**Quick Access Toolbar**](#quick-access-toolbar)
-    - [**Status Bar**](#status-bar)
-    - [**Sheet Tabs**](#sheet-tabs)
-    - [**Zoom Controls**](#zoom-controls)
-  - [**Working with Worksheets**](#working-with-worksheets)
-    - [**Create Workbook**](#create-workbook)
-    - [**Save Workbook**](#save-workbook)
-    - [**Open Workbook**](#open-workbook)
-    - [**Rename Sheet**](#rename-sheet)
-    - [**Move Sheet**](#move-sheet)
-    - [**Copy Sheet**](#copy-sheet)
-    - [**Delete Sheet**](#delete-sheet)
-    - [**Hide/Unhide Sheet**](#hideunhide-sheet)
-    - [**Protect Sheet**](#protect-sheet)
+        - [**Formula Bar**](#formula-bar)
+      - [**Excel Interface**](#excel-interface)
+        - [**Ribbon**](#ribbon)
+        - [**Tabs**](#tabs)
+        - [**Groups**](#groups)
+        - [**Quick Access Toolbar**](#quick-access-toolbar)
+        - [**Status Bar**](#status-bar)
+        - [**Sheet Tabs**](#sheet-tabs)
+        - [**Zoom Controls**](#zoom-controls)
+      - [**Working with Worksheets**](#working-with-worksheets)
+        - [**Create Workbook**](#create-workbook)
+        - [**Save Workbook**](#save-workbook)
+        - [**Open Workbook**](#open-workbook)
+        - [**Rename Sheet**](#rename-sheet)
+        - [**Move Sheet**](#move-sheet)
+        - [**Copy Sheet**](#copy-sheet)
+        - [**Delete Sheet**](#delete-sheet)
+        - [**Hide/Unhide Sheet**](#hideunhide-sheet)
+        - [**Protect Sheet**](#protect-sheet)
 
-### **Excel Fundamentals**
+# **Excel Fundamentals**
 
-#### **Introduction to Excel**
+## **Introduction to Excel**
 
-##### **Excel**
+### **Excel**
 
 **What is Microsoft Excel?**
 
@@ -131,12 +133,13 @@ Hey everybody!!
 
 ---
 
-##### **Uses of Excel**
+### **Uses of Excel**
 
 **What are the uses of Excel?**
 
 *Excel is used to:*
-  1. **Store data:** *Excel can store large amounts of information in rows and columns.*
+
+1. **Store data:** *Excel can store large amounts of information in rows and columns.*
     
   **Example:** *Student records*
 
@@ -157,7 +160,7 @@ Hey everybody!!
    - *Marks*
    - *Attendance*
 
-  2. **Organize data:** *Excel helps arrange data in a structured format.*
+2. **Organize data:** *Excel helps arrange data in a structured format.*
      
   **Unorganized Data:**
 
@@ -183,7 +186,7 @@ Hey everybody!!
   | E101   | Ram  | HR         |
   | E102   | Sita | Finance    |
 
-  3. **Perform Calculations:** *Excel can perform calculations automatically using formulas.*
+3. **Perform Calculations:** *Excel can perform calculations automatically using formulas.*
     
    **Example:**
    | Product | Qty | Price |
@@ -205,7 +208,7 @@ Hey everybody!!
     
   *using Excel formulas.*
 
-  4. **Data Analysis:** *Analyzing data means finding useful information from raw data.*
+4. **Data Analysis:** *Analyzing data means finding useful information from raw data.*
 
    **Example:** *Sales data*
 
@@ -230,7 +233,7 @@ Hey everybody!!
      - *Top customers*
      - *Monthly growth* 
 
-  5. **Reporting:** *Reports summarize information for management.*
+5. **Reporting:** *Reports summarize information for management.*
 
    **Example:** *Monthly Sales Report*
    | Month | Revenue |
@@ -251,7 +254,7 @@ Hey everybody!!
 
    *using Excel.*
 
-   6. **Dashboard Creation:** *A dashboard is a visual summary of business performance.*
+6. **Dashboard Creation:** *A dashboard is a visual summary of business performance.*
    
    **Dashboard may contain**
    - *Revenue*
@@ -270,7 +273,7 @@ Hey everybody!!
 
    *on one screen.*
 
-   7. **Budget Planning:** *Excel helps plan income and expenses.*
+7. **Budget Planning:** *Excel helps plan income and expenses.*
 
    **Example:**
    | Category | Amount |
@@ -282,7 +285,7 @@ Hey everybody!!
    
    **Example:** *Finance departments create annual budgets in Excel.*
 
-   8. **Financial Analysis:** *Analyzing money-related information.*
+8. **Financial Analysis:** *Analyzing money-related information.*
 
    **Examples:**
    - *Profit*
@@ -298,7 +301,7 @@ Hey everybody!!
 
    *using Excel.*
 
-   9. **Inventory Management:** *Tracking stock available in a business.*
+9. **Inventory Management:** *Tracking stock available in a business.*
 
    **Example:**
    | Product | Stock |
@@ -313,7 +316,7 @@ Hey everybody!!
 
    **Example:** *A supermarket tracks thousands of products using Excel.*
 
-   10. **Employee Management:** *Managing employee information.*
+10. **Employee Management:** *Managing employee information.*
    
    **Example:**
    | Emp ID | Name | Salary |
@@ -326,7 +329,7 @@ Hey everybody!!
    - *Employee Database*
    - *Leave Tracking*
 
-   11. **Education Sector:** 
+11. **Education Sector:** 
    
    *Uses*
 
@@ -346,7 +349,7 @@ Hey everybody!!
    - *Average*
    - *Percentage*
 
-   12. **Data Cleaning:** *Fixing messy data.*
+12. **Data Cleaning:** *Fixing messy data.*
 
    **Example:** *Before Cleaning*
    | Name |
@@ -362,7 +365,7 @@ Hey everybody!!
 
    **Example:** *Data Analysts spend a large portion of their time cleaning data before analysis.*
 
-   13. **Automation:** *Automating repetitive work.*
+13. **Automation:** *Automating repetitive work.*
 
    **Example:** *Instead of calculating salary for 1000 employees manually, Excel formulas can calculate all salaries instantly.*
 
@@ -395,7 +398,7 @@ Hey everybody!!
 
 ---
 
-##### **Workbook vs Worksheet**
+### **Workbook vs Worksheet**
 
 **What is a Workbook?**
 
@@ -469,7 +472,7 @@ Hey everybody!!
 
 ---
 
-##### **Rows, Columns and Cells**
+### **Rows**
 
 **What is a Row?**
 
@@ -523,6 +526,8 @@ Hey everybody!!
 
 ---
 
+### **Column**
+
 **What is a Column?**
 
 - *A Column is a vertical line of cells in an Excel worksheet.*
@@ -571,6 +576,8 @@ Hey everybody!!
 *Imagine a hospital database with many details Patient ID, Name, Age, Gender, Blood Group, Address, Phone Number, Diagnosis, Doctor, Admission Date, Discharge Date. Each detail gets its own column.*
 
 ---
+
+### **Cells**
 
 **What is a Cell?**
 
@@ -661,7 +668,7 @@ Hey everybody!!
 
 ---
 
-##### **Active Cell**
+### **Active Cells**
 
 **What is an Active Cell?**
 
@@ -778,7 +785,7 @@ Hey everybody!!
 
 ---
 
-##### **Cell Address**
+### **Cell Address**
 
 **What is a Cell Address?**
 
@@ -849,7 +856,7 @@ Hey everybody!!
 
 ---
 
-##### **Range**
+### **Range**
 
 **What is a Range?**
 
@@ -907,7 +914,7 @@ Hey everybody!!
 
 ---
 
-##### **Name Box**
+### **Name Box**
 
 **What is a Name Box?**
 
