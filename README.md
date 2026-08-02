@@ -15,10 +15,11 @@ Hey everybody!!
     - [**Active Cells**](#active-cells)
     - [**Cell Address**](#cell-address)
     - [**Range**](#range)
+    - [**Named Range**](#named-range)
     - [**Name Box**](#name-box)
-        - [**Formula Bar**](#formula-bar)
-      - [**Excel Interface**](#excel-interface)
-        - [**Ribbon**](#ribbon)
+    - [**Formula Bar**](#formula-bar)
+  - [**Excel Interface**](#excel-interface)
+    - [**Ribbon**](#ribbon)
         - [**Tabs**](#tabs)
         - [**Groups**](#groups)
         - [**Quick Access Toolbar**](#quick-access-toolbar)
@@ -914,6 +915,49 @@ Hey everybody!!
 
 ---
 
+### **Named Range**
+
+**What is a Named Range?**
+
+*A Named Range is a user-defined name given to a cell or a range of cells, making formulas easier to read, write, and maintain.*
+
+---
+
+**How to create a Named Range?**
+
+**Method-1:**
+1. *Select the cells for example, ```B2:B10```*
+2. *Click the Name Box*
+3. *Type a name and press Enter*
+
+**Method-2:**
+1. *Select the range*
+2. *Go to Formulas tab*
+3. *Click define name*
+4. *Enter the name*
+5. *Click OK*
+
+---
+
+**Rules for Naming a Range**
+
+**Allowed**
+
+```txt
+Sales
+Employee_Data
+TotalSales2026
+Salary_List
+```
+
+**Not Allowed**
+
+- *Starts with a number ```123Sales```*
+- *Contains Space ```Monthly Sales```*
+- *Dont use cell address like A10, B20 these cannot be used Excel thinks they are cell references*
+
+---
+
 ### **Name Box**
 
 **What is a Name Box?**
@@ -955,7 +999,7 @@ Hey everybody!!
 
 ---
 
-##### **Formula Bar**
+### **Formula Bar**
 
 **What is a Formula Bar?**
 
@@ -991,9 +1035,9 @@ Hey everybody!!
 
 ---
 
-#### **Excel Interface**
+## **Excel Interface**
 
-##### **Ribbon**
+### **Ribbon**
 
 **What is the Ribbon?**
 
