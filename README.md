@@ -20,12 +20,12 @@ Hey everybody!!
     - [**Formula Bar**](#formula-bar)
   - [**Excel Interface**](#excel-interface)
     - [**Ribbon**](#ribbon)
-        - [**Tabs**](#tabs)
-        - [**Groups**](#groups)
-        - [**Quick Access Toolbar**](#quick-access-toolbar)
-        - [**Status Bar**](#status-bar)
-        - [**Sheet Tabs**](#sheet-tabs)
-        - [**Zoom Controls**](#zoom-controls)
+    - [**Tabs**](#tabs)
+    - [**Groups**](#groups)
+    - [**Quick Access Toolbar**](#quick-access-toolbar)
+    - [**Status Bar**](#status-bar)
+    - [**Sheet Tabs**](#sheet-tabs)
+    - [**Zoom Controls**](#zoom-controls)
       - [**Working with Worksheets**](#working-with-worksheets)
         - [**Create Workbook**](#create-workbook)
         - [**Save Workbook**](#save-workbook)
@@ -883,15 +883,15 @@ Hey everybody!!
 
 1. **Single Cell Range:** *Only one cell.*
 
-**Example:** *A1*
+  **Example:** *A1*
 
 2. **Continuous (Contiguous) Range:** *Cells are connected.*
 
-**Example:** *A1:A5*
+  **Example:** *A1:A5*
 
 3. **Non-Continuous (Non-Contiguous) Range:** *Cells are not connected.*
 
-**Example:** *A1, C1, E1*
+  **Example:** *A1, C1, E1*
 
 ---
 
@@ -1095,7 +1095,7 @@ Salary_List
 
 ---
 
-##### **Tabs**
+### **Tabs**
 
 **What are Tabs?**
 
@@ -1198,7 +1198,7 @@ Salary_List
 
 ---
 
-##### **Groups**
+### **Groups**
 
 **What are Groups?**
 
@@ -1303,7 +1303,7 @@ Ribbon
 
 ---
 
-##### **Quick Access Toolbar**
+### **Quick Access Toolbar**
 
 **What is the Quick Access Toolbar?**
 
@@ -1369,7 +1369,7 @@ Ribbon
 
 ---
 
-##### **Status Bar**
+### **Status Bar**
 
 **What is the Status Bar?**
 
@@ -1429,7 +1429,7 @@ Ribbon
 
 ---
 
-##### **Sheet Tabs**
+### **Sheet Tabs**
 
 **What are Sheet Tabs?**
 
@@ -1480,7 +1480,7 @@ Ribbon
 
 ---
 
-##### **Zoom Controls**
+### **Zoom Controls**
 
 **What are Zoom Controls?**
 
