@@ -1051,12 +1051,12 @@ Salary_List
 
 ```txt
 ┌─────────────────────────────────────────────┐
-│ Excel Workbook                             │
+│ Excel Workbook                              │
 ├─────────────────────────────────────────────┤
-│ Home  Insert  Page Layout  Formulas  Data  │  ← Tabs
+│ Home  Insert  Page Layout  Formulas  Data   │  ← Tabs
 ├─────────────────────────────────────────────┤
-│ Clipboard | Font | Alignment | Number      │  ← Groups
-│   tools      tools     tools      tools    │
+│ Clipboard | Font | Alignment | Number       │  ← Groups
+│   tools      tools     tools      tools     │
 ├─────────────────────────────────────────────┤
 │                                             │
 │              Worksheet                      │
