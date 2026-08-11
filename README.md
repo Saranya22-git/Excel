@@ -883,15 +883,15 @@ Hey everybody!!
 
 1. **Single Cell Range:** *Only one cell.*
 
-  **Example:** *A1*
+   **Example:** *A1*
 
 2. **Continuous (Contiguous) Range:** *Cells are connected.*
 
-  **Example:** *A1:A5*
+   **Example:** *A1:A5*
 
 3. **Non-Continuous (Non-Contiguous) Range:** *Cells are not connected.*
 
-  **Example:** *A1, C1, E1*
+   **Example:** *A1, C1, E1*
 
 ---
 
@@ -1042,8 +1042,6 @@ Salary_List
 **What is the Ribbon?**
 
 *The Ribbon is the main command center of Microsoft Excel. It is located at the top of the Excel window and contains Tabs, Groups, and Commands that help users perform tasks such as formatting, inserting charts, creating formulas, and managing data.*
-
-jijijiji
 
 ---
 
