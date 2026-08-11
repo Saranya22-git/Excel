@@ -1043,6 +1043,8 @@ Salary_List
 
 *The Ribbon is the main command center of Microsoft Excel. It is located at the top of the Excel window and contains Tabs, Groups, and Commands that help users perform tasks such as formatting, inserting charts, creating formulas, and managing data.*
 
+jijijiji
+
 ---
 
 **What does the Ribbon contain?**
