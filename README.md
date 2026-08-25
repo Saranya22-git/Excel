@@ -26,6 +26,9 @@ Hey everybody!!
     - [**Status Bar**](#status-bar)
     - [**Sheet Tabs**](#sheet-tabs)
     - [**Zoom Controls**](#zoom-controls)
+    - [**View Modes**](#view-modes)
+    - [**Freeze Panes**](#freeze-panes)
+    - [**Split Window**](#split-window)
       - [**Working with Worksheets**](#working-with-worksheets)
         - [**Create Workbook**](#create-workbook)
         - [**Save Workbook**](#save-workbook)
@@ -1646,6 +1649,204 @@ Dashboard  → Summary
   - *Print output*
 
 ---
+
+### **View Modes**
+
+- *View Modes are different ways Excel allows you to display and work with a worksheet on the screen.*
+- *They help you view your worksheet differently depending on whether you're Working with data, Preparing a report for printing, Checking page breaks.*
+
+---
+
+**Main View Modes**
+
+*The important Excel worksheet views are*
+1. *Normal View*
+2. *Page Break Preview*
+3. *Page Layout View*
+
+---
+
+1. **Normal View:** *Normal View is the default view used for entering, editing, and analyzing data in a worksheet.*
+
+```txt
+┌───────────────────────────────┐
+│ Employee ID | Name | Salary   │
+|-------------|------|----------|
+│ E101        | Ravi | 40000    │
+│ E102        | Priya| 50000    │
+│ E103        | Kiran| 45000    │
+└───────────────────────────────┘
+```
+
+2. **Page Break Preview:** *Page Break Preview shows where excel will divide the worksheet into separate pages when printing.*
+
+```txt
+┌─────────────────┬─────────────────┐
+│                 │                 │
+│     Page 1      │     Page 2      │
+│                 │                 │
+│                 │                 │
+└─────────────────┴─────────────────┘
+```
+
+3. **Page Layout View:** *Page Layout View shows the worksheet approximately as it well appear when printed, including page boundaries, margins, headers, and footers.*
+
+```txt
+Monthly Sales Report
+──────────────────────
+Company Name
+Report Date
+
+Sales Table
+...
+
+Page 1 of 2
+```
+
+---
+
+**Normal vs Page Layout vs Page Break Review**
+
+| View                   | Main Purpose                             |
+| ---------------------- | ---------------------------------------- |
+| **Normal View**        | Everyday data work                       |
+| **Page Layout View**   | See how the sheet will look when printed |
+| **Page Break Preview** | See and adjust page divisions            |
+
+---
+
+**Where can you change View Modes?**
+
+- *You can change views from the View Tab*
+- *You can also use the view shortcuts generally located near the bottom-right of the Excel window*
+
+---
+
+### **Freeze Panes**
+
+*Freeze Panes is an Excel feature that keeps selected rows or columns visible while you scroll through the worksheet.*
+
+---
+
+**Why do we need Freeze Panes?**
+
+*Imagine you have 20,000 employee records. Your headers are*
+
+| Employee ID | Name | Department | Salary | Joining Date |
+| ----------- | ---- | ---------- | -----: | ------------ |
+
+*You scroll down to employee number 5000. Without, Freeze Panes you might see*
+
+```txt
+E5000 | Ravi | HR | 40000 | 2024
+E5001 | Priya | Finance | 50000 | 2023
+E5002 | Kiran | Sales | 45000 | 2022
+```
+
+*But you can't see the column headings anymore.*
+
+*With Freeze Panes, the header row stays visible*
+
+```txt
+Employee ID | Name | Department | Salary | Joining Date
+--------------------------------------------------------
+E5000       | Ravi | HR         | 40000  | 2024
+E5001       | Priya| Finance    | 50000  | 2023
+```
+
+---
+
+**Where is Freeze Panes?**
+
+- *You can find it under ```View → Freeze Panes```*
+- *You will generally see options such as Freeze Panes, Freeze Top Row, Freeze First Column*
+
+---
+
+**Freeze Top Row:** *Freeze Top Row keeps Row 1 visible while scrolling vertically.*
+
+*Suppose Row 1 contains your headers*
+
+```txt
+Employee ID | Name | Department | Salary
+```
+
+*Select ```View → Freeze Panes → Freeze Top Row```. Now when you scroll down*
+
+```txt
+Employee ID | Name | Department | Salary  ← stays visible
+----------------------------------------------------------
+E1001       | Ravi | HR         | 40000
+E1002       | Priya| Finance    | 50000
+...
+E5000       | Kiran| Sales      | 45000
+```
+
+---
+
+**Freeze First Column:** *Freeze First Column keeps Column A visible while scrolling horizontally.*
+
+*Imagine Column A contains*
+
+```txt
+Employee ID
+E101
+E102
+E103
+...
+```
+
+*If your dataset has many columns and you scroll to the right, Employee ID can remain visible.*
+
+*Use ```View → Freeze Panes → Freeze First Column```*
+
+---
+
+**Freeze Multiple Rows and Columns**
+
+*Suppose you want to freeze Row 1 Column A. You can select ```B2``` then ```View → Freeze Panes → Freeze Panes```*
+
+**Why B2?**
+
+*Because Excel freezes everything above and to the left of the selected cell. So*
+
+```txt
+          A          B          C
+       Employee ID  Name     Salary
+Row 1     🔒        🔒        🔒
+Row 2     🔒       Ravi      40000
+Row 3     🔒       Priya     50000
+```
+
+*Row 1 stays visible. Column A stays visible.*
+
+---
+
+**Important Rule**
+
+*Excel freezes the rows above and columns to the left of the selected cell.*
+
+**Example:** 
+
+- **Select C3:** *Excel freezes Row 1 and 2 Columns A and B*
+- **Select D5:** *Excel freezes Row 1 - 4 Columns A - C*
+
+---
+
+**How to Unfreeze Panes?**
+
+*If you no longer want rows or columns frozen ```View → Freeze Panes → Unfreeze Panes```*
+
+---
+
+### **Split Window**
+
+**
+
+
+
+  
+
 
 #### **Working with Worksheets**
 
