@@ -1441,9 +1441,7 @@ Ribbon
 
 ### **Status Bar**
 
-**What is the Status Bar?**
-
-*The Status Bar is located at the bottom of the Excel window. It displays information about the current worksheet, selected cells, and workbook status. It also provides quick calculations such as Sum, Average, Count, and zoom controls.*
+*The Status Bar is the area at the bottom of the Excel window that displays information about the current worksheet, selection, and Excel's current state.*
 
 ---
 
@@ -1452,6 +1450,17 @@ Ribbon
 *The Status Bar is located:*
 - *At the bottom of the Excel window*
 - *Below the worksheet*
+
+```txt
+┌──────────────────────────────────────┐
+│                                      │
+│           Worksheet                  │
+│                                      │
+├──────────────────────────────────────┤
+│ Status Bar                           │
+│ Ready     Sum: 150   Average: 50     │
+└──────────────────────────────────────┘
+```
 
 ---
 
@@ -1485,17 +1494,6 @@ Ribbon
 - *View shortcuts*
 
 *Only the options you select will appear.*
-
----
-
-**Advantages**
-
-*The Status Bar:*
-- *Saves Time*
-- *Shows quick calculations*
-- *Displays worksheet status*
-- *Provides zoom controls*
-- *Improves productivity*
 
 ---
 
