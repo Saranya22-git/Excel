@@ -1499,9 +1499,7 @@ Ribbon
 
 ### **Sheet Tabs**
 
-**What are Sheet Tabs?**
-
-*Sheet Tabs are located at the bottom of an Excel workbook. They represent individual worksheets and allow users to navigate, organize, and manage multiple worksheets within a single workbook.*
+*Sheet Tabs are the tabs located at the bottom of an Excel window that represent the worksheets in a workbook. They allow users to navigate between, create, rename, move, copy and manage multiple worksheets within a single workbook.*
 
 ---
 
@@ -1510,6 +1508,10 @@ Ribbon
 *Sheet Tabs are located:*
 - *At the bottom-left corner of the Excel window.*
 - *Just above the Status Bar.*
+
+```txt
+Sheet1 | Sheet2 | Sheet3 | Dashboard
+```
 
 ---
 
@@ -1527,24 +1529,61 @@ Ribbon
 
 ---
 
-**Why are Sheet Tabs important?**
+**Creating a New Worksheet?**
 
-*Sheet Tabs help you:*
-- *Organize related data*
-- *Separate information logically*
-- *Navigate between worksheets quickly*
-- *Manage large projects efficiently*
+*You can create a new worksheet using the ```+ button``` near the Sheet Tabs.*
+
+```txt
+Sheet1 | Sheet2 |  + 
+                   ↑
+              New Sheet
+```
 
 ---
 
-**Advantages**
+**Renaming a Sheet**
 
-*Sheet Tabs help you:*
-- *Organize data*
-- *Navigate quickly*
-- *Manage related information*
-- *Reduce file clutter*
-- *Improve productivity*
+- *Suppose Excel gives you ```Sheet1``` but you want ```January_Sales```. You can rename it.*
+- *```Right-click Sheet tab → Rename``` then enter ```January_Sales```. Press Enter*
+
+---
+
+**Moving a Sheet**
+
+- *Suppose your workbook contains ```January | February | March | Dashboard```*
+- *You want dashboard to appear first ```Dashboard | January | February | March```*
+- *You can move the sheet by ```dragging its Sheet Tab``` to the desired position*
+- *You can also use ```Right-click sheet tab → Move or Copy```*
+
+---
+
+**Copying a Sheet**
+
+- *Suppose you have ```January_sales``` and you want to create a similar sheet for February*
+- *You can copy the January sheet instead of rebuilding everything*
+- *```Right-click Sheet Tab → Move or Copy → Create a copy```*
+- *Then rename the sheet*
+
+---
+
+**Deleting a Sheet**
+
+*If a worksheet is no longer required ```Right-click Sheet Tab → Delete```*
+
+---
+
+**Sheet Tab Colors**
+
+*You can also assign a color to a Sheet Tab*
+
+```txt
+January    → Sales
+February   → Sales
+Dashboard  → Summary
+```
+
+- *Tab colors can help visually organize a workbook*
+- *Tab color is for organization it doesn't change the worksheet's data*
 
 ---
 
