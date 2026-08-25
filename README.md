@@ -29,8 +29,8 @@ Hey everybody!!
     - [**View Modes**](#view-modes)
     - [**Freeze Panes**](#freeze-panes)
     - [**Split Window**](#split-window)
-      - [**Working with Worksheets**](#working-with-worksheets)
-        - [**Create Workbook**](#create-workbook)
+  - [**Working with Worksheets**](#working-with-worksheets)
+    - [**Create Workbook**](#create-workbook)
         - [**Save Workbook**](#save-workbook)
         - [**Open Workbook**](#open-workbook)
         - [**Rename Sheet**](#rename-sheet)
@@ -1841,16 +1841,79 @@ Row 3     🔒       Priya     50000
 
 ### **Split Window**
 
-**
+*Split Window is an Excel feature that divides the worksheet window into separate panes, allowing you to view and work with different parts of the same worksheet simultaneously.*
 
+---
 
+**Why do we use Split?**
 
-  
+- *Imagine you have a worksheet with 10,000 rows. You are working around Row 9000 but you also want to compare it with Row 10.*
+- *Without splitting, you would have to keep scrolling between the two locations.*
+- *With split, you can display different sections of the same worksheet simultaneously.*
 
+---
 
-#### **Working with Worksheets**
+**Where is Split?**
 
-##### **Create Workbook**
+*```View → Split``` It is part of the worksheet window/view controls.*
+
+---
+
+**How does Split works?**
+
+*When you apply split, excel divides the worksheet into separate panes.*
+
+```txt
+┌─────────────────────────────┐
+│        Top Pane             │
+│                             │
+├─────────────────────────────┤
+│        Bottom Pane          │
+│                             │
+└─────────────────────────────┘
+```
+
+*You can also create a vertical split*
+
+```txt
+┌──────────────┬──────────────┐
+│              │              │
+│  Left Pane   │ Right Pane   │
+│              │              │
+└──────────────┴──────────────┘
+```
+
+---
+
+1. **Horizontal Split:** *A horizontal split divides the worksheet into top and bottom panes.*
+
+   **Example:** *```Top pane Rows 1 - 20``` and ```Bottom pane Rows 9000 - 9020```*
+
+2. **Vertical Split:** *A vertical split divides the worksheet into left and right panes.*
+
+   **Example:** *```Left pane Columns A - D``` and ```Right pane Columns X - AA```*
+
+3. **Horizontal + Vertical Split:** *You can also split the worksheet in both directions. This can create four panes*
+
+```txt
+┌──────────────┬──────────────┐
+│   Pane 1     │    Pane 2    │
+├──────────────┼──────────────┤
+│   Pane 3     │    Pane 4    │
+└──────────────┴──────────────┘
+```
+
+---
+
+**How to Remove Split?**
+
+*To remove the split ```View → Split``` Clicking the split option again removes the split.*
+
+---
+
+## **Working with Worksheets**
+
+### **Create Workbook**
 
 *Creating a Workbook means creating a new Microsoft Excel file that contain one or more worksheets for storing, organizing, and analyzing data.*
 
