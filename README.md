@@ -1591,7 +1591,7 @@ Dashboard  → Summary
 
 **What are Zoom Controls?**
 
-*Zoom Controls are located at the bottom-right corner of the Excel window on the Status Bar. They allow users to zoom in or zoom out to change the worksheet's viewing size without affecting the actual data or formatting.*
+*Zoom Controls in Excel allow users to increase or decrease the size at which the worksheet is displayed on the screen without changing the actual data, formatting, or cell values.*
 
 ---
 
@@ -1601,32 +1601,37 @@ Dashboard  → Summary
 - *At the bottom-right corner of the Excel Window.*
 - *On the Status Bar*
 
+```txt
+                     −    ●────────    + 
+                         Zoom Slider
+```
+
 ---
 
-**What can you do with Zoom Controls?**
+**How does Zoom work?**
 
-**Zoom In:** *Makes everything appear larger on your screen.*
+1. **Zoom In:** *Makes the worksheet appear larger.*
 
-**Example:** *100% -> 150%*
+   **Example:** *100% -> 150%*
 
-*Useful when:*
-- *Reading small text*
-- *Presenting data*
-- *Editing detailed reports*
+   *Useful when:*
+   - *Reading small text*
+   - *Presenting data*
+   - *Editing detailed reports*
 
-**Zoom Out:** *Makes everything appear smaller.*
+2. **Zoom Out:** *Makes the worksheet appear smaller.*
 
-**Example:** *100% -> 80%*
+   **Example:** *100% -> 80%*
 
-*Useful when:*
-- *Viewing large worksheets*
-- *Seeing more rows and columns at once*
+   *Useful when:*
+   - *Viewing large worksheets*
+   - *Seeing more rows and columns at once*
 
-**Zoom Percentage:** *Excel shows the current zoom level.*
+3. **Zoom Slider:** *Excel shows the current zoom level.*
 
-**Example:** *50%, 75%, 100%, 125%, 150%, 200%*
+   **Example:** *50%, 75%, 100%, 125%, 150%, 200%*
 
-*100% is the default zoom level in most Excel workbooks.*
+   *100% is the default zoom level in most Excel workbooks.*
 
 ---
 
@@ -1639,17 +1644,6 @@ Dashboard  → Summary
   - *Data*
   - *Formatting*
   - *Print output*
-
----
-
-**Advantages**
-
-*Zoom Controls help you:*
-- *Read small text easily*
-- *View large worksheets*
-- *Present reports clearly*
-- *Improve user comfort*
-- *Switch between detailed and overview views quickly*
 
 ---
 
