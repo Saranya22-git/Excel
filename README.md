@@ -36,8 +36,8 @@ Hey everybody!!
     - [**Rename Sheet**](#rename-sheet)
     - [**Move Sheet**](#move-sheet)
     - [**Copy Sheet**](#copy-sheet)
-        - [**Delete Sheet**](#delete-sheet)
-        - [**Hide/Unhide Sheet**](#hideunhide-sheet)
+    - [**Delete Sheet**](#delete-sheet)
+    - [**Hide/Unhide Sheet**](#hideunhide-sheet)
         - [**Protect Sheet**](#protect-sheet)
 
 # **Excel Fundamentals**
@@ -2126,7 +2126,7 @@ Row 3     🔒       Priya     50000
 
 ### **Copy Sheet**
 
-*Copying a worksheet is the process of creating an identical duplicate of an existing worksheet within the same workbook or in another workbook, while preserving the original worksheet.*
+*Copying a sheet means creating a duplicate of an existing worksheet while keeping the original worksheet unchanged.*
 
 ---
 
@@ -2153,31 +2153,9 @@ Row 3     🔒       Priya     50000
 
 ---
 
-**Move Sheet vs Copy Sheet**
+### **Delete Sheet**
 
-| Move Sheet                   | Copy Sheet                     |
-| ---------------------------- | ------------------------------ |
-| Changes the sheet's location | Creates a duplicate            |
-| Original sheet is moved      | Original sheet remains         |
-| No duplicate exists          | Duplicate is created           |
-| Used for reorganizing        | Used for templates and backups |
-
----
-
-**Advantages of Copying Sheets**
-
-*Copying worksheets helps you:*
-- *Save time*
-- *Reuse templates*
-- *Maintain consistent formatting*
-- *Create backups*
-- *Avoid repetitive work*
-
----
-
-##### **Delete Sheet**
-
-*Deleting a worksheet is the process of permanently removing an unwanted worksheet from an Excel workbook.*
+*Deleting a sheet means permanently removing a worksheet from an excel workbook.*
 
 ---
 
@@ -2218,7 +2196,7 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Hide/Unhide Sheet**
+### **Hide/Unhide Sheet**
 
 **Hide Sheet**
 
