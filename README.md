@@ -38,7 +38,7 @@ Hey everybody!!
     - [**Copy Sheet**](#copy-sheet)
     - [**Delete Sheet**](#delete-sheet)
     - [**Hide/Unhide Sheet**](#hideunhide-sheet)
-        - [**Protect Sheet**](#protect-sheet)
+    - [**Protect Sheet**](#protect-sheet)
 
 # **Excel Fundamentals**
 
@@ -2200,11 +2200,11 @@ Row 3     🔒       Priya     50000
 
 **Hide Sheet**
 
-*Hiding a worksheet is the process of making a worksheet temporarily invisible while keeping all its data intact within the workbook.*
+*Hiding a sheet means making a worksheet temporarily invisible without deleting it or its data.*
 
 **Unhide Sheet**
 
-*Unhiding a worksheet is the process of restoring a hidden worksheet so that it becomes visible and accessible again.*
+*Unhiding a sheet is the process of restoring a hidden worksheet so that it becomes visible and accessible again.*
 
 ---
 
@@ -2248,7 +2248,7 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Protect Sheet**
+### **Protect Sheet**
 
 - *Protect Sheet means restricting users from making changes to a worksheet, such as editing cells, deleting data, or changing formulas.*
 - *The worksheet remains visible, but certain actions are not allowed.*
