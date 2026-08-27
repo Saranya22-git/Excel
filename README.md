@@ -35,7 +35,7 @@ Hey everybody!!
     - [**Open Workbook**](#open-workbook)
     - [**Rename Sheet**](#rename-sheet)
     - [**Move Sheet**](#move-sheet)
-        - [**Copy Sheet**](#copy-sheet)
+    - [**Copy Sheet**](#copy-sheet)
         - [**Delete Sheet**](#delete-sheet)
         - [**Hide/Unhide Sheet**](#hideunhide-sheet)
         - [**Protect Sheet**](#protect-sheet)
@@ -2091,7 +2091,7 @@ Row 3     🔒       Priya     50000
 
 ### **Move Sheet**
 
-*Moving a worksheet is the process of changing its position within a workbook or transferring it to another workbook without creating a duplicate.*
+*Moving a sheet means changing the position of a worksheet within the same workbook or moving it to another open workbook.*
 
 ---
 
@@ -2124,7 +2124,7 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Copy Sheet**
+### **Copy Sheet**
 
 *Copying a worksheet is the process of creating an identical duplicate of an existing worksheet within the same workbook or in another workbook, while preserving the original worksheet.*
 
