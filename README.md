@@ -39,6 +39,8 @@ Hey everybody!!
     - [**Delete Sheet**](#delete-sheet)
     - [**Hide/Unhide Sheet**](#hideunhide-sheet)
     - [**Protect Sheet**](#protect-sheet)
+  - [**Data Entry**](#data-entry)
+    - [**Enter Data**](#enter-data)
 
 # **Excel Fundamentals**
 
@@ -2248,6 +2250,30 @@ Row 3     🔒       Priya     50000
 
 ---
 
+**Hide vs Clear data**
+
+**Hide**
+
+```txt
+Sheet exists
+↓
+Not visible
+↓
+Data remains
+```
+
+**Clear data**
+
+```txt
+Sheet exists
+↓
+Visible
+↓
+Data removed
+```
+
+---
+
 ### **Protect Sheet**
 
 - *Protect Sheet means restricting users from making changes to a worksheet, such as editing cells, deleting data, or changing formulas.*
@@ -2298,6 +2324,18 @@ Row 3     🔒       Priya     50000
 *Now you can edit the worksheet again.*
 
 ---
+
+**Protect Sheet vs Protect Workbook**
+
+**Protect Sheet:** *Controls changes inside a workbook.*
+
+**Protect Workbook:** *Controls certain workbook-level structure changes such as adding, deleting, moving, renaming, hiding, or unhiding sheets.*
+
+---
+
+## **Data Entry**
+
+### **Enter Data**
 
 
 
