@@ -41,6 +41,9 @@ Hey everybody!!
     - [**Protect Sheet**](#protect-sheet)
   - [**Data Entry**](#data-entry)
     - [**Enter Data**](#enter-data)
+    - [**Edit Data**](#edit-data)
+    - [**Clear Data**](#clear-data)
+    - [**AutoFill**](#autofill)
 
 # **Excel Fundamentals**
 
@@ -2336,6 +2339,124 @@ Data removed
 ## **Data Entry**
 
 ### **Enter Data**
+
+*Data Entry in Excel is the process of entering values such as text, numbers, dates, and formulas into cells of a worksheet.*
+
+---
+
+**What Types of Data can you Enter?**
+
+1. **Text:** *```Ravi, Finance, Hyderabad, Product A```*
+2. **Numbers:** *```100, 50000, 778.89```*
+3. **Dates:** *```27/08/2026, 01-Jan-2026```*
+4. **Time:** *```10:30 AM, 14:45```*
+5. **Formulas:** *```=A2+B2```*
+6. **Logical Values:** *```True False```*
+
+---
+
+**How do you Enter Data?**
+
+```txt
+Select Cell 
+     ↓
+Type Data
+     ↓
+Press Enter
+```
+
+---
+
+**Enter vs Tab vs Arrow Keys**
+
+**Enter:** *After entering data and pressing Enter, Excel normally moves the active cell downward.*
+
+**Tab:** *After entering data and pressing Tab, excel normally moves to the next cell to the right.*
+
+**Arrow Keys:** *You can use the arrow keys to navigate between cells.*
+
+---
+
+### **Edit Data**
+
+*Editind data in Excel means modifying or correcting the existing content of a cell without necessarily replacing the entire worksheet.*
+
+---
+
+**Method-1:** *Select cell and Type new data*
+
+*Suppose ```A2 - Ravi``` You select A2 and type ```Rahul``` then press enter. The old value is replaced.*
+
+**Method-2:** *Double-Click the cell*
+
+*Suppose ```A2 - Ravi``` You want to change and type ```Rahul``` Double-click the cell Now you can edit the content directly.*
+
+**Method-3:** *Formula Bar*
+
+- *Select the cell*
+- *Look at the Formula Bar. You can modify the cell's contents there.*
+
+**Method-4:** *F2 Key*
+
+- *Select the cell and press F2*
+- *Excel enters cell edit mode, allowing you to edit the existing content.*
+
+---
+
+**Edit vs Replace**
+
+**Edit:** *Change part or all of the existing content.*
+
+**Replace:** *Enter a completely new value, replacing the old value.*
+
+---
+
+### **Clear Data**
+
+*Clearing data means removing the contents or formatting from selected cells without necessarily deleting the entire worksheet.*
+
+---
+
+**What can you clear?**
+
+*Excel allows you to clear different things from cells*
+
+- **Clear Contents:** *Removes the data but keeps the formatting.*
+- **Clear Formats:** *Removes formatting but keeps the actual data.*
+- **Clear All:** *Remove both contents and formatting from the selected cells.*
+
+---
+
+**Clear Data vs Delete**
+
+**Clear:** *Removes something from the cells. The cells remain.*
+
+**Delete Sheet:** *Removes the entire worksheet.*
+
+---
+
+**How to Clear Contents?**
+
+- *Select the cells and press Delete this removes the cell contents while generally preserving the cell formatting.*
+- *You can also use ```Home → Clear → Clear Contents```*
+
+---
+
+**How to Clear Everything?**
+
+*Select the cells. Go to ```Home → Clear → Clear All``` this removes the contents and formatting from the selected cells.*
+
+---
+
+**Clear Formats**
+
+*```Home → Clear → Clear Formats``` the data remains, but the formatting is removed.*
+
+---
+
+### **AutoFill**
+
+
 
 
 
