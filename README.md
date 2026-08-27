@@ -31,10 +31,10 @@ Hey everybody!!
     - [**Split Window**](#split-window)
   - [**Working with Worksheets**](#working-with-worksheets)
     - [**Create Workbook**](#create-workbook)
-        - [**Save Workbook**](#save-workbook)
-        - [**Open Workbook**](#open-workbook)
-        - [**Rename Sheet**](#rename-sheet)
-        - [**Move Sheet**](#move-sheet)
+    - [**Save Workbook**](#save-workbook)
+    - [**Open Workbook**](#open-workbook)
+    - [**Rename Sheet**](#rename-sheet)
+    - [**Move Sheet**](#move-sheet)
         - [**Copy Sheet**](#copy-sheet)
         - [**Delete Sheet**](#delete-sheet)
         - [**Hide/Unhide Sheet**](#hideunhide-sheet)
@@ -1940,7 +1940,7 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Save Workbook**
+### **Save Workbook**
 
 *Saving a Workbook is the process of storing an Excel file with its data, formulas, formatting, and worksheets in a chosen location for future use.*
 
@@ -1958,8 +1958,6 @@ Row 3     🔒       Priya     50000
   - *Click Save* 
 - *If the workbook is already saved:*
   - *Pressing Ctrl + S simply updates the existing file.*
-
----
 
 **Method-2:** *Save Button*
 
@@ -1986,7 +1984,19 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Open Workbook**
+**Important File Formats**
+
+| Format  | Typical Use                      |
+| ------- | -------------------------------- |
+| `.xlsx` | Standard Excel workbook          |
+| `.xls`  | Older Excel workbook format      |
+| `.csv`  | Comma-separated data             |
+| `.xlsm` | Excel workbook containing macros |
+| `.pdf`  | Sharing/printing reports         |
+
+---
+
+### **Open Workbook**
 
 *Opening a Workbook is the process of accessing an existing Excel file from a storage location to view, edit, update, or analyze its data.*
 
@@ -2021,9 +2031,9 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Rename Sheet**
+### **Rename Sheet**
 
-*Renaming a Sheet is the process of changing the default worksheet name to a meaningful name, making the workbook easier to understand, organize, and navigate.*
+*Renaming a Sheet means changing the name of a worksheet to a meaningful name that describes the data or purpose of that worksheet.*
 
 ---
 
@@ -2079,7 +2089,7 @@ Row 3     🔒       Priya     50000
 
 ---
 
-##### **Move Sheet**
+### **Move Sheet**
 
 *Moving a worksheet is the process of changing its position within a workbook or transferring it to another workbook without creating a duplicate.*
 
