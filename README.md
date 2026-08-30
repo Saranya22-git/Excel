@@ -46,6 +46,7 @@ Hey everybody!!
     - [**AutoFill**](#autofill)
     - [**Flash Fill**](#flash-fill)
     - [**Fill Series**](#fill-series)
+    - [**Custom Lists**](#custom-lists)
 
 # **Excel Fundamentals**
 
@@ -2770,6 +2771,60 @@ Stop = 50
 ```
 
 ---
+
+### **Custom Lists**
+
+*A Custom List is a user-defined sequence of values that Excel can automatically fill or use for sorting.*
+
+---
+
+**Built-in Lists vs Custom Lists**
+
+**Built-in:** *Excel already recognizes things like*
+
+```txt
+Monday
+Tuesday
+Wednesday
+...
+```
+
+```txt
+January
+February
+March
+...
+```
+
+**Custom List:** *You define the sequence yourself.*
+
+**Example:**
+```txt
+Bronze
+Silver
+Gold
+Platinum
+```
+
+---
+
+**Creating a Custom List**
+
+- *A common path is File → Options → Advanced → General → Edit Custom Lists.*
+- *You can then enter your own list. For example*
+```txt
+Low
+Medium
+High
+Critical
+```
+
+*Then add/import the list.*
+
+---
+
+
+
 
 
 
