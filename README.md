@@ -2477,6 +2477,49 @@ Press Enter
 
 ---
 
+**Example:** *Repeating a Value*
+
+- *Suppose A1 contains ```Sales```. Select AI and drag the Fill Handle downward.*
+- *Excel can fill*
+```txt
+Sales
+Sales
+Sales
+Sales
+Sales
+```
+
+---
+
+**AutoFill with a Number Pattern**
+
+- *Suppose you enter*
+```txt
+1
+2
+```
+- *Select both cells and then drag the Fill Handle downward.*
+- *Excel recognizes the pattern*
+```txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+...
+```
+- *Excel identifies the difference ```1 → 2 = +1``` and continues the sequence.*
+
+---
+
+
+
+
 
 
 
