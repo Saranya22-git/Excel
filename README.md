@@ -47,6 +47,7 @@ Hey everybody!!
     - [**Flash Fill**](#flash-fill)
     - [**Fill Series**](#fill-series)
     - [**Custom Lists**](#custom-lists)
+    - [**Find**](#find)
 
 # **Excel Fundamentals**
 
@@ -2822,6 +2823,32 @@ Critical
 *Then add/import the list.*
 
 ---
+
+**Using a Custom List with AutoFill**
+
+*Suppose you create*
+```txt
+Low
+Medium
+High
+Critical
+```
+
+*Enter ```Low``` then use the Fill handle. Excel can continue*
+
+```txt
+Low
+Medium
+High
+Critical
+Low
+Medium
+...
+```
+
+---
+
+### **Find**
 
 
 
