@@ -2547,6 +2547,54 @@ Sales
 
 ---
 
+**AutoFill with Dates**
+
+- *Suppose you enter ```01-Jan-2026``` and use AutoFill.*
+- *Excel can continue the dates*
+```txt
+01-Jan-2026
+02-Jan-2026
+03-Jan-2026
+04-Jan-2026
+...
+```
+- *You can also create other date patterns depending on the starting values.*
+```txt
+01-Jan
+08-Jan
+```
+
+---
+
+**AutoFill with Months**
+
+- *Enter ```January``` then drag the FillHandle*
+- *Excel can continue*
+```txt
+January
+February
+March
+April
+May
+June
+...
+```
+
+*Similarly*
+```txt
+Monday
+Tuesday
+Wednesday
+...
+```
+
+---
+
+**AutoFill with Formulas**
+
+
+
+
 
 
 
