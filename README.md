@@ -44,6 +44,7 @@ Hey everybody!!
     - [**Edit Data**](#edit-data)
     - [**Clear Data**](#clear-data)
     - [**AutoFill**](#autofill)
+    - [**Flash Fill**](#flash-fill)
 
 # **Excel Fundamentals**
 
@@ -2591,6 +2592,41 @@ Wednesday
 ---
 
 **AutoFill with Formulas**
+
+*Suppose you have*
+
+| A        |        B |     C |
+| -------- | -------- | ----- |
+| Product  | Quantity | Price |
+| Laptop   |        2 | 50000 |
+| Mouse    |       10 |   500 |
+| Keyboard |        5 |  1000 |
+
+*You want Total in Column D. In D2 ```=B2*C2``` Now drag the Fill Handle down. Excel automatically adjusts the row references.*
+
+```txt
+=B2*C2
+=B3*C3
+=B4*C4
+```
+
+---
+
+**AutoFill Horizontally**
+
+*AutoFill doesn't only work vertically. You can also drag horizontally.*
+
+```txt
+January | February | March | April | May
+```
+
+---
+
+### **Flash Fill**
+
+
+
+
 
 
 
