@@ -2517,7 +2517,35 @@ Sales
 
 ---
 
+**One Number vs Two Numbers**
 
+- *Suppose you enter only 1 and drag AutoFill.*
+- *Excel may repeat*
+```txt
+1
+1
+1
+1
+```
+- *But if you enter*
+```txt
+1
+2
+```
+- *And select both, excel can recognize the sequence.*
+```txt
+1
+2
+3
+4
+5
+6
+7
+8
+...
+```
+
+---
 
 
 
