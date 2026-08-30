@@ -2379,7 +2379,7 @@ Press Enter
 
 ### **Edit Data**
 
-*Editind data in Excel means modifying or correcting the existing content of a cell without necessarily replacing the entire worksheet.*
+*Editing data in Excel means modifying or correcting the existing content of a cell without necessarily replacing the entire worksheet.*
 
 ---
 
@@ -2456,6 +2456,26 @@ Press Enter
 
 ### **AutoFill**
 
+*AutoFill is an Excel feature that automatically fills cells with a repeated value, pattern, series, or formulas based on the existing data.*
+
+---
+
+**How does AutoFill work?**
+
+- *AutoFill uses the Fill Handle.*
+- *The Fill Handle is the small square at the bottom-right corner of the selected cell or range.*
+
+```txt
+┌──────────┐
+│ January  │
+└──────────■
+           ↑
+       Fill Handle
+```
+
+*Drag that small square across or down.*
+
+---
 
 
 
