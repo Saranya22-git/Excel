@@ -2647,6 +2647,82 @@ January | February | March | April | May
 
 ### **Fill Series**
 
+*Fill Series is an Excel feature used to automatically generate a sequence of values based on a specified starting value, ending value and step value.*
+
+---
+
+**Where is Fill Series?**
+
+```txt
+Home → Fill → Series
+```
+
+---
+
+**Important Terms**
+
+**Start Value:** *The value where the sequence begins.*
+
+**Stop Value:** *The value where the sequence should end.*
+
+**Step Value:** *The amount by which the sequence changes.*
+
+**Example:**
+```txt
+Start = 1
+Stop = 10
+Step = 1
+```
+
+```txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+---
+
+**Decreasing Series**
+
+*Fill Series can also create decreasing sequences.*
+
+```txt
+10
+9
+8
+7
+6
+...
+```
+
+---
+
+**Linear Series**
+
+*A Linear series increases or decreases by a fixed amount.*
+
+**Example:**
+```txt
+10
+20
+30
+40
+50
+```
+
+*The difference between values is always ```+10```. So Linear Series - Constant difference.*
+
+---
+
+
+
 
 
 
