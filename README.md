@@ -2721,6 +2721,58 @@ Step = 1
 
 ---
 
+**Date Series**
+
+*Fill Series can also work with dates.*
+
+**Example:**
+```txt
+01-Jan-2026
+02-Jan-2026
+03-Jan-2026
+04-Jan-2026
+...
+```
+
+---
+
+**AutoFill vs Fill Series**
+
+**AutoFill:** *Automatically fills cells by using patterns, formulas, dates, etc.,*
+
+```txt
+1
+2
+↓ AutoFill
+3
+4
+5
+```
+
+**Fill Series:** *Gives you explicit control over Start Stop Step.*
+
+```txt
+Start = 10
+Step = 5
+Stop = 50
+```
+
+```txt
+10
+15
+20
+25
+30
+35
+40
+45
+50
+```
+
+---
+
+
+
 
 
 
