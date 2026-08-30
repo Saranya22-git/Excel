@@ -45,6 +45,7 @@ Hey everybody!!
     - [**Clear Data**](#clear-data)
     - [**AutoFill**](#autofill)
     - [**Flash Fill**](#flash-fill)
+    - [**Fill Series**](#fill-series)
 
 # **Excel Fundamentals**
 
@@ -2643,6 +2644,8 @@ January | February | March | April | May
 ```Ctrl + E```
 
 ---
+
+### **Fill Series**
 
 
 

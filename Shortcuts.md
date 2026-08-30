@@ -17,4 +17,5 @@
 | Ctrl + Z                                      | Undo                                                                        |
 | Ctrl + Y                                      | Redo                                                                        |
 | Select cell and Press F2                      | Edit the active cell                                                        |
+| Ctrl + E                                      | Flash Fill                                                                  |
 | 
