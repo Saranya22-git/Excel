@@ -2624,8 +2624,25 @@ January | February | March | April | May
 
 ### **Flash Fill**
 
+*Flash Fill is an Excel feature that automatically detects a pattern in the data you enter and fills the remaining cells based on that pattern.*
 
+**Example:**
+| A — Full Name | B — First Name |
+| ------------- | -------------- |
+| Ravi Kumar    | Ravi           |
+| Priya Sharma  |                |
+| Kiran Reddy   |                |
+| Sneha Rao     |                |
 
+*You enter ```Ravi``` in B2 then use ```Data → Flash Fill``` or ```Ctrl + E```*
+
+---
+
+**Flash Fill Shortcut**
+
+```Ctrl + E```
+
+---
 
 
 
