@@ -631,38 +631,6 @@ Hey everybody!!
 
 ---
 
-**Cell Address(Cell Reference)**
-
-- *Every cell has a unique address.*
-- *A cell address is formed by combining Column Letter + Row Number.*
-
-**Example:**
-| Cell Address | Meaning          |
-| ------------ | ---------------- |
-| A1           | Column A, Row 1  |
-| B2           | Column B, Row 2  |
-| C5           | Column C, Row 5  |
-| D10          | Column D, Row 10 |
-
-**Example:**
-
-|   |   A   |    B   |     C     |
-|---|-------|--------|-----------|
-|1  | Name  |  Age   |  City     |
-|2  | Ravi  |  22    | Hyderabad |
-
-- *Ravi is A2*
-- *22 is B2*
-- *Hyderabad is C2*
-
-**Why are cell addresses important?**
-
-- *Excel formulas use cell addresses.*
-  - **Example:** *=A1+B2* *Instead of =100+200*
-- *Using cell addresses makes formulas dynamic. If the values in A2 or B2 change, the result updates automatically.*
-
----
-
 **Difference between Rows, Columns and Cells**
 
 | Feature    | Row        | Column   | Cell                           |
