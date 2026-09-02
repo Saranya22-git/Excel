@@ -2818,6 +2818,50 @@ Medium
 
 ### **Find**
 
+*Find is an Excel feature used to quickly search for specific text, numbers, formulas, or other content within a worksheet or workbook.*
+
+---
+
+**Shortcut for Find**
+
+*```Ctrl + F``` - Find*
+
+*Excel opens the Find and Replace dialog with the Find tab selected.*
+
+---
+
+**Example:** *Suppose you have*
+
+| Employee ID | Name  | Department |
+| ----------- | ----- | ---------- |
+| E101        | Ravi  | HR         |
+| E102        | Priya | Finance    |
+| E103        | Kiran | Sales      |
+| E104        | Sneha | Finance    |
+
+*You want to find ```Finance```. Press ```Ctrl + F``` and type Finance. Click Find Next. Excel jumps to the matching cell.*
+
+---
+
+**Find Next**
+
+*Suppose ```Finance``` appears several times. When you click Find Next, excel moves through each matching occurrence.*
+
+```txt
+Finance ← first match
+   ↓
+Find Next
+   ↓
+Finance ← second match
+   ↓
+Find Next
+   ↓
+Finance ← third match
+```
+
+---
+
+
 
 
 
