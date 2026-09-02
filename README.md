@@ -2861,6 +2861,12 @@ Finance ← third match
 
 ---
 
+**Find All**
+
+*Excel also provides Find All. Instead of moving through matches one at a time, Find All displays all matching results.*
+
+---
+
 
 
 
