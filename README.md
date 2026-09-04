@@ -50,6 +50,7 @@ Hey everybody!!
     - [**Find**](#find)
     - [**Replace**](#replace)
     - [**Go To**](#go-to)
+    - [**Go To Special**](#go-to-special)
 
 # **Excel Fundamentals**
 
@@ -3081,6 +3082,66 @@ Replace with:    Andhra Pradesh
 ---
 
 ### **Go To**
+
+*Go To is an Excel feature used to quickly jump to a specific cell, range, or location in a worksheet.*
+
+*Instead of manually scrolling through a large dataset, you can directly enter the cell reference.*
+
+---
+
+**Shortcut**
+
+*```Ctrl + G``` and also you can press ```F5```. Both open the Go To dialog box.*
+
+---
+
+**Example:** *Suppose your worksheet has 100,000 rows. You want to go directly to cell ```A50000```*
+
+*Instead of scrolling*
+- *Press ```Ctrl + G```*
+- *Enter ```A50000```*
+- *Press Enter*
+
+*Excel immediately takes you to that cell.*
+
+---
+
+**Go To a specific cell**
+
+*Suppose you're currently at ```A1```. You want to go to ```D250``` Press ```Ctrl + G``` Enter D250 Press Enter Excel selects ```D250```.*
+
+---
+
+**Go To a Range**
+
+*You can also select an entire range directly. For example ```A2:D100``` Press ```Ctrl + G``` Enter ```A2:D100``` Press Enter. Excel selects the complete range.*
+
+```txt
+A2 ───────── D2
+│             │
+│   Selected  │
+│    Range    │
+│             │
+A100 ─────── D100
+```
+
+---
+
+**Go To Another Sheet**
+
+*You can also specify a worksheet. For example ```Sheet2!A100```. This means Go To cell A100 on Sheet2.*
+
+---
+
+**Go To with a Named Range**
+
+*Suppose you created a named range ```Sales_Data```. You can use the Name Box or Go To to navigate to that named range.*
+
+---
+
+### **Go To Special**
+
+
 
 
 

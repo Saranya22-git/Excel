@@ -20,4 +20,5 @@
 | Ctrl + E                                      | Flash Fill                                                                  |
 | Ctrl + F                                      | Find                                                                        |
 | Ctrl + H                                      | Find and Replace                                                            |
+| Ctrl + G                                      | Go To                                                                       |
 | 
