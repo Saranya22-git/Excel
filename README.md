@@ -49,6 +49,7 @@ Hey everybody!!
     - [**Custom Lists**](#custom-lists)
     - [**Find**](#find)
     - [**Replace**](#replace)
+    - [**Go To**](#go-to)
 
 # **Excel Fundamentals**
 
@@ -3006,6 +3007,80 @@ Finance Team
 ---
 
 ### **Replace**
+
+*Replace in Excel is used to find a specific value/text and change it to another value/text.*
+
+**Example:** *Suppose your data contains*
+
+| Employee | Department |
+| -------- | ---------- |
+| Ravi     | Finace     |
+| Priya    | Finance    |
+| Anu      | Finace     |
+
+*You notice ```Finace``` is a spelling mistake. Instead of manually correcting every row*
+
+**Find:** *```Finace```*
+
+**Replace with:** *```Finance```*
+
+*Excel can correct all occurrences at once.*
+
+---
+
+**Shortcut**
+
+*```Ctrl + H``` - This opens the Find and Replace dialog box directly.*
+
+---
+
+**How to use Replace**
+
+*Suppose you have*
+
+```txt
+AP
+AP
+TS
+AP
+KA
+TS
+```
+
+*You want to change ```AP``` to ```Andhra Pradesh```*
+
+**Step-1:** *Select your data or column*
+
+**Step-2:** *Press ```Ctrl + H``` You'll see*
+
+```txt
+Find what:       AP
+Replace with:    Andhra Pradesh
+```
+
+**Step-3:** *Click **Replace** - If you want to change one occurrence Or **Replace All:** *If you want to change every matching occurrence.*
+
+---
+
+**Replace Formatting**
+
+- *Excel's Find and Replace can also work with formatting*
+- *For example, you might want to find cells with one particular formatting and replace that formatting with another.*
+- *In the Find and Replace window ```Options → Format```. You can specify formatting criteria.*
+
+---
+
+**Find vs Replace vs Filter**
+
+| Feature     | Purpose                               |
+| ----------- | ------------------------------------- |
+| **Find**    | Locate something                      |
+| **Replace** | Find something and change it          |
+| **Filter**  | Display only rows meeting a condition |
+
+---
+
+### **Go To**
 
 
 

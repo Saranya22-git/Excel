@@ -19,4 +19,5 @@
 | Select cell and Press F2                      | Edit the active cell                                                        |
 | Ctrl + E                                      | Flash Fill                                                                  |
 | Ctrl + F                                      | Find                                                                        |
+| Ctrl + H                                      | Find and Replace                                                            |
 | 
