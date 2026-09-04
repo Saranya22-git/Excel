@@ -54,6 +54,7 @@ Hey everybody!!
   - [**Formatting**](#formatting)
     - [**Font Formatting**](#font-formatting)
     - [**Alignment**](#alignment)
+    - [**Wrap Text**](#wrap-text)
 
 # **Excel Fundamentals**
 
@@ -3391,6 +3392,94 @@ Times New Roman
 ---
 
 ### **Alignment**
+
+*Alignment controls where the content of a cell is positioned inside the cell.*
+
+*For example, you can position content:*
+- *Left*
+- *Center*
+- *Right*
+- *Top*
+- *Middle*
+- *Bottom*
+
+---
+
+**Horizontal Alignment:** *Horizontal alignment controls the position from left to right.*
+
+*The main options are*
+
+- **Left Align:** *Text appears toward the left side.*
+- **Center Align:** *Text appears in the center.*
+- **Right Align:** *Text appears toward the right side.*
+
+---
+
+**Default Alignment**
+
+*Excel generally aligns*
+- *Text → Left*
+- *Numbers → Right*
+
+---
+
+**Vertical Alignement:** *Vertical alignment controls where content appears from top to bottom inside a cell.*
+
+*Options include*
+- *Top*
+- *Middle*
+- *Bottom*
+
+---
+
+**How to Apply Alignment**
+
+**Method:**
+- *Select the cells*
+- *Go to the Home tab*
+- *Find the Alignment group*
+- *Choose the required alignment*
+
+---
+
+**Indent**
+
+*Excel also provides Indent. Indent moves the content slightly inward from the cell boundary.*
+
+*For example:*
+```txt
+Revenue
+    Product Revenue
+    Service Revenue
+```
+
+---
+
+**Orientation**
+
+*Alignment also include text orientation. You can rotate text inside a cell.*
+
+*For example*
+
+```txt
+January
+February
+March
+```
+
+*can be displayed vertically/at an angle.*
+
+```txt
+       Jan
+       |
+       |
+       ↓
+```
+
+---
+
+### **Wrap Text**
+
 
 
 
