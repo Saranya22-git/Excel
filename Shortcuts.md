@@ -21,4 +21,7 @@
 | Ctrl + F                                      | Find                                                                        |
 | Ctrl + H                                      | Find and Replace                                                            |
 | Ctrl + G                                      | Go To                                                                       |
+| Ctrl + B                                      | Bold                                                                        |
+| Ctrl + I                                      | Italic                                                                      |
+| Ctrl + U                                      | Underline                                                                   |
 | 

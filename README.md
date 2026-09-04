@@ -53,6 +53,7 @@ Hey everybody!!
     - [**Go To Special**](#go-to-special)
   - [**Formatting**](#formatting)
     - [**Font Formatting**](#font-formatting)
+    - [**Alignment**](#alignment)
 
 # **Excel Fundamentals**
 
@@ -3354,12 +3355,45 @@ Times New Roman
 
    **Shortcut:** *```Ctrl + U```*
 
-- **Font Color:** *You can change the color of text using Font color.*
+---
+
+**Font Color:** *You can change the color of text using Font color.*
 
 
 *Formatting should improve readability, not make the spreadsheet unnecessarily complicated.*
 
 ---
+
+**Applying Multiple Font Formats**
+
+*You can combine formatting. For example ```MONTHLY SALES REPORT``` could be Bold, Larger font, Different font color.*
+
+*A cell can simultaneously have ```Bold + Italic + Underline``` if needed.*
+
+---
+
+**Format Only part of a Cell**
+
+*You don't always have to format the entire cell.*
+
+- *Suppose a cell contains ```Total Revenue: $50,000```*
+- *You can edit the cell and select only ```Total Revenue``` and make that portion bold.*
+- *This is called **partial cell formatting***
+
+---
+
+**Font Formatting vs Cell Formatting**
+
+**Font Formatting:** *Changes the text appearance such as Font, Size, Bold, Italic, Underline, Font color.*
+
+**Other Cell Formatting:** *Changes things such as Alignment, Borders, Fill color, Number format.*
+
+---
+
+### **Alignment**
+
+
+
 
 
 
