@@ -3286,7 +3286,84 @@ Mobile
 
 ### **Font Formatting**
 
-**
+*Font Formatting means changing the appearance of text inside Excel cells.*
+
+*Common font formatting options are:*
+- *Font type*
+- *Font size*
+- *Bold*
+- *Italic*
+- *Underline*
+- *Font color*
+
+---
+
+**Changing Font Type**
+
+*Suppose you have*
+
+| Employee | Department | Salary |
+| -------- | ---------- | ------ |
+| Ravi     | IT         |  50000 |
+| Priya    | HR         |  60000 |
+
+*You can select the cells and change the font type, for example*
+
+```txt
+Arial
+Calibri
+Aptos
+Times New Roman
+```
+
+- *Select the cells*
+- *Go to Home tab*
+- *Find the Font section*
+- *Choose the required font*
+
+---
+
+**Changing Font Size**
+
+*Font size controls how large or small the text appears.*
+
+*For example*
+
+```txt
+10
+11
+12
+14
+16
+20
+```
+
+*You can select your report title and use a larger font. For example ```Monthly Sales Report``` could use a larger font than the actual data.*
+
+---
+
+- **Bold:** *```Bold``` makes text visually stronger.*
+
+   **Shortcut:** *```Ctrl + B```*
+
+- **Italic:** *```Italic``` makes text slanted.*
+
+   **Shortcut:** *```Ctrl + I```*
+
+- **Underline:** *```Underline``` adds a line beneath the text.*
+
+   **Shortcut:** *```Ctrl + U```*
+
+- **Font Color:** *You can change the color of text using Font color.*
+
+
+*Formatting should improve readability, not make the spreadsheet unnecessarily complicated.*
+
+---
+
+
+
+
 
 
 
