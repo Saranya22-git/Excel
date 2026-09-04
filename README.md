@@ -48,6 +48,7 @@ Hey everybody!!
     - [**Fill Series**](#fill-series)
     - [**Custom Lists**](#custom-lists)
     - [**Find**](#find)
+    - [**Replace**](#replace)
 
 # **Excel Fundamentals**
 
@@ -2934,6 +2935,77 @@ New Hyderabad Branch
 *Searching ```Hyderabad``` can find cells containing that text.*
 
 ---
+
+**Match Case**
+
+*Excel can optionally distinguish between uppercase and lowercase.*
+
+*For example*
+
+```txt
+finance
+Finance
+FINANCE
+```
+
+*If Match case is enabled, Excel treats these as different captialization patterns.*
+
+---
+
+**Match Entire Cell Contents**
+
+*You can also search for an exact cell value.*
+
+*Suppose the cells contain*
+
+```txt
+Finance
+Finance Department
+Finance Team
+```
+
+*If you search for ```Finance``` with Match entire cell contents enabled, Excel looks for a cell whose entire content is exactly ```Finance``` rather than text that merely contains the word.*
+
+---
+
+**Search by Format**
+
+*Excel's find feature can also search based on formatting.*
+
+*For example you might want to find cells that have*
+- *A particular font*
+- *A particular fill color*
+- *A number format*
+
+---
+
+**Find Formulas**
+
+*You can also search within formulas*
+
+*Suppose a worksheet contains*
+```txt
+=SUM(B2:B10)
+=AVERAGE(C2:C10)
+=SUM(B11:B20)
+```
+
+*You can configure Find to search in*
+- *Formulas*
+- *Values*
+- *Comments/Notes, depending on Excel version/options*
+
+---
+
+**Find vs Filter**
+
+**Find:** *Used to locate specific data. For example Find customer ```C1052```*
+
+**Filter:** *Used to display only rows that meet a condition. Show only customers from Hyderabad*
+
+---
+
+### **Replace**
 
 
 
