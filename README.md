@@ -55,6 +55,10 @@ Hey everybody!!
     - [**Font Formatting**](#font-formatting)
     - [**Alignment**](#alignment)
     - [**Wrap Text**](#wrap-text)
+    - [**Merge and Center**](#merge-and-center)
+    - [**Borders**](#borders)
+    - [**Colors**](#colors)
+    - [**Number Formats**](#number-formats)
 
 # **Excel Fundamentals**
 
@@ -3479,6 +3483,255 @@ March
 ---
 
 ### **Wrap Text**
+
+*Wrap Text makes long text fit inside a cell by displaying it on multiple lines within the same cell.*
+
+---
+
+**How to apply Wrap Text**
+
+**Method-1:** *Home Tab*
+- *Select the cells*
+- *Go to Home*
+- *Find the Alignment group*
+- *Click Wrap Text*
+
+**Method-2:** *Format Cells*
+- *Select the cells*
+- *Right-click → Format cells*
+- *Go to Alignment*
+- *Check Wrap Text*
+- *Click OK*
+
+---
+
+**Manual Line Break vs Wrap Text**
+
+*There is another way to put text on multiple lines.*
+
+*```Alt + Enter``` while editing a cell, pressing ```Alt + Enter``` creates a manual line break.*
+
+**Example:**
+```txt
+Sales Report
+January
+2026
+```
+
+**Difference**
+
+**Wrap Text:** *Excel automatically determines where the text should wrap based on the cell width.*
+
+**```Alt + Enter```:** *You manually decides where the new line should occur.*
+
+---
+
+### **Merge and Center**
+
+*Merge & Center combines two or more adjacent cells into one larger cell and places the content in the center.*
+
+*It is commonly used for*
+- *Report titles*
+- *Section headings*
+- *Dashboard headings*
+
+**Example:** *Before*
+
+| A       | B     | C      | D    |
+| ------- | ----- | ------ | ---- |
+| Monthly | Sales | Report | 2026 |
+
+*If you select ```A1:D1``` and choose Merge & Center*
+
+```txt
+┌─────────────────────────────────────┐
+│       Monthly Sales Report 2026     │
+└─────────────────────────────────────┘
+```
+
+*The four cells become one merged cell.*
+
+---
+
+**How to use Merge & Center**
+
+*Suppose you have ```A1 = Monthly Sales Report``` and want the title across columns A to D.*
+
+**Steps**
+1. *Select A1:D1*
+2. *Go to Home*
+3. *Find the Alignment group*
+4. *Click Merge & Center*
+
+*The selected cells become one cell and the text is centered.*
+
+---
+
+**Merge & Center vs Center Alignment**
+
+**Center Alignment:** *Moves the content to the center within each cell.*
+
+**Merge & Center:** *Combines multiple cells into one cell.*
+
+---
+
+**Other Merge Options**
+
+*When you click the dropdown next to Merge & Center, Excel provides several options.*
+
+- **Merge & Center:** *Combines cells and centers the content.*
+- **Merge Across:** *Merges cells across each row separately.*
+- **Merge Cells:** *Combines the selected cells without necessarily centering the content.*
+- **Unmerge Cells:** *Splits a merged cell back into separate cells.*
+
+---
+
+### **Borders**
+
+*Borders are lines that you apply around or between cells to visually organize a worksheet.*
+
+**Example:**
+
+| Employee | Department | Salary |
+| -------- | ---------- | -----: |
+| Ravi     | IT         | 50,000 |
+| Priya    | HR         | 60,000 |
+| Anu      | Sales      | 75,000 |
+
+*Adding borders makes the table boundaries easier to see.*
+
+---
+
+**Where to Find Borders?**
+
+- *Select the cells*
+- *Go to the Home tab*
+- *In the Font group, find the borders button*
+- *Click the dropdown to see the available border options*
+
+---
+
+**Important Border Options**
+
+- **Bottom Border:** *Adds a line below the selected cells. Useful for Headers, Section separators.*
+- **Top Border:** *Adds a line above the selected cells. Useful for separating sections or highlighting totals.*
+- **Left Border:** *Adds a lines on the left side of the selected cells.*
+- **Right Border:** *Adds a line on the right side.*
+- **All Borders:** *Adds borders around each selected cell.*
+- **Outside Borders:** *Adds a border around the outside edge of the selected range.*
+- **Thick Outside Borders:** *Same idea as Outside Borders, but with a thicker line. Useful for highlighting KPI sections, Important summary tables, Dashboard components.*
+
+---
+
+**Border Color**
+
+*You can also change the color of the Border. For example ```Borders → Line Color``` then choose a color.*
+
+---
+
+**Border Styles**
+
+*You can choose different line styles.*
+
+**Examples:**
+```txt
+────────────  Thin
+━━━━━━━━━━━━  Thick
+- - - - - - -  Dashed
+··············  Dotted
+```
+
+*You can combine*
+- *Border style*
+- *Border color*
+- *Border position*
+
+---
+
+**Drawing Borders**
+
+*Excel also provides options such as*
+- *Draw Borders*
+- *Draw Border Grid*
+- *Erase Border*
+
+*These allow you to manually draw or remove borders.*
+
+---
+
+**Borders vs Gridlines**
+
+**Gridlines:** *Gridlines are the light lines excel displays by default to help you see cells. They are part of the worksheet's view.*
+
+**Borders:** *Borders are formatting applied to cells.*
+
+---
+
+### **Colors**
+
+*In Excel, Colors are used to visually distinguish and organize information. There are two important types we'll use here*
+- **Font Color:** *Changes the color of the text*
+- **Fill Color:** *Changes the background color of the cell*
+
+---
+
+**Font Color**
+
+*Font Color changes the color of the text inside a cell.*
+
+**Example:**
+
+| Employee | Status   |
+| -------- | -------- |
+| Ravi     | Active   |
+| Priya    | Inactive |
+
+*You could change the text color of ```Inactive``` to make it stand out.*
+
+1. *Select the cell(s)*
+2. *Go to Home*
+3. *In the Font group, click Font Color*
+4. *Select a color*
+
+---
+
+**Fill Color**
+
+*Fill Color changes the background color of the cell.*
+
+| **Employee** | **Status** |
+| ------------ | ---------- |
+| Ravi         | Active     |
+| Priya        | Inactive   |
+
+*The header background helps visually separate it from the data.*
+
+1. *Select the cells*
+2. *Go to Home*
+3. *Find Fill Color*
+4. *Select a color*
+
+---
+
+**Clear Cell Color**
+
+- *If you want to remove a fill color ```Fill Color → No Fill```.*
+- *This removes the cell background color.*
+- *Similarly, you can change the font back to the required font color.*
+
+---
+
+**Colors vs Conditional Formatting**
+
+**Regular Color Formatting:** *You manually choose the color. For example, ```make the revenue header blue```.*
+
+**Conditional Formatting:** *Excel applies formatting based on a condition. For example, ```Highlight all sales below ₹10,000```. Excel automatically identifies and formats the matching cells.*
+
+---
+
+### **Number Formats**
+
+
 
 
 
