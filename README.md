@@ -51,6 +51,8 @@ Hey everybody!!
     - [**Replace**](#replace)
     - [**Go To**](#go-to)
     - [**Go To Special**](#go-to-special)
+  - [**Formatting**](#formatting)
+    - [**Font Formatting**](#font-formatting)
 
 # **Excel Fundamentals**
 
@@ -3140,6 +3142,151 @@ A100 ─────── D100
 ---
 
 ### **Go To Special**
+
+*Go To Special is an Excel feature used to quickly find and select cells with a particular characteristic.*
+
+*For example, you can select*
+- *Blank cells*
+- *Formulas*
+- *Constants*
+- *Errors*
+- *Numbers*
+- *Text*
+- *Visible cells only*
+- *Comments/Notes*
+- *Conditional formatting cells*
+
+---
+
+**Shortcut** 
+
+*There isn't a direct single shortcut like ```Ctrl + G```*
+
+*Use ```Ctrl + G``` → Special or ```Home → Find & Select → Go To Special```*
+
+---
+
+**Selecting Blank Cells**
+
+*Suppose you have*
+
+| Employee | Department | Salary |
+| -------- | ---------- | ------ |
+| Ravi     | IT         |  50000 |
+| Priya    |            |  60000 |
+| Anu      | HR         |        |
+| Rahul    | IT         |  55000 |
+
+*You want to identify missing values*
+
+**Steps**
+1. *Select the relevant range*
+2. *Press ```Ctrl + G```*
+3. *Click Special*
+4. *Select Blanks*
+5. *Click OK*
+
+*Excel selects the blank cells.*
+
+---
+
+**Selecting Formulas**
+
+*Suppose your worksheet contains*
+
+```txt
+A       B       C
+100     200     =A1+B1
+150     300     =A2+B2
+200     400     =A3+B3
+```
+
+*Column C contains formulas. You can use ```Go To Special → Formulas``` Excel selects the cells containing formulas.*
+
+---
+
+**Selecting Constants**
+
+*A constant is a value that is directly entered into a cell rather than calculated by a formula.*
+
+*For example*
+
+```txt
+100
+200
+300
+```
+
+*These are constants. You can use ```Go To Special → Constants``` Excel can select cells containing directly entered values.*
+
+---
+
+**Selecting Errors**
+
+*Suppose your dataset contains*
+
+```txt
+#DIV/0!
+#VALUE!
+#N/A
+```
+
+*You can use ```Go To Special → Formulas → Errors``` to select cells containing formula errors.*
+
+---
+
+**Selecting Numbers**
+
+*Suppose a worksheet contains*
+
+```txt
+100
+Apple
+200
+Orange
+300
+```
+
+*You can use ```Go To Special → Constants → Numbers``` to select the cells containing numeric constants.*
+
+---
+
+**Selecting text**
+
+*Similarly ```Go To Special → Constants → Text``` can select cells containing text constants.*
+
+```txt
+Apple
+Orange
+Laptop
+199
+76
+Mobile
+```
+
+---
+
+**Selecting Visible Cells only**
+
+*Suppose you have ```1000 rows``` and apply a filter so that only 100 rows are visible.*
+
+*If you copy a range normally, you may accidentally include hidden/filtered rows. You can use ```Go To Special → Visible cells only```*
+
+---
+
+**Go To vs Go To Special**
+
+**Go To:** *Used when you know where you want to go.*
+
+**Go To Special:** *Used when you want to select cells based on their properties.*
+
+---
+
+## **Formatting**
+
+### **Font Formatting**
+
+**
 
 
 
