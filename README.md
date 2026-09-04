@@ -2867,6 +2867,73 @@ Finance ← third match
 
 ---
 
+**Find in Worksheet vs Workbook**
+
+**Sheet:** *Searches the current worksheet.*
+
+**Workbook:** *Searches across the workbook's worksheets.*
+
+**Example:**
+
+```txt
+Workbook
+│
+├── Raw_Data
+├── Analysis
+├── Dashboard
+└── Employee_Data
+```
+
+*If you're looking for ```E105``` across the entire workbook, you can search the workbook rather than checking each sheet separately.*
+
+---
+
+**Find What?**
+
+*The Find box allows you to specify what you're searching for*
+
+**Examples:**
+
+```txt
+Ravi
+Finance
+50000
+E101
+2026
+```
+
+*You can search for text or numbers.*
+
+---
+
+**Finding a Number**
+
+*Suppose your salary column contains*
+
+```txt
+40000
+45000
+50000
+60000
+```
+
+*You want to locate ```50000```. Press ```Ctrl + F``` Type ```50000``` then choose Find Next. Excel jumps to the matching cell.*
+
+---
+
+**Finding Text Within Larget Text**
+
+*Suppose cells contain*
+
+```txt
+Hyderabad
+Hyderabad Office
+New Hyderabad Branch
+```
+
+*Searching ```Hyderabad``` can find cells containing that text.*
+
+---
 
 
 
