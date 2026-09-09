@@ -3731,7 +3731,54 @@ January
 
 ### **Number Formats**
 
+*Number Formatting controls how a value is displayed in an Excel cell without necessarily changing the underlying value.*
 
+*For example, the underlying value could be ```5000```. You can display it as*
+
+```txt
+50,000
+₹50,000
+50,000.00
+5.00E+04
+```
+
+*The underlying numeric value can still be 50000.*
+
+*Number formatting changes the appearance of a value, not the underlying value.*
+
+---
+
+**Why do we need Number Formats?**
+
+*Imagine a sales dataset*
+
+| Product | Revenue |
+| ------- | ------- |
+| Laptop  |  500000 |
+| Mobile  |  300000 |
+| Tablet  |  200000 |
+
+*```500000``` is technically correct but ```500,000``` is much easier to read and if it represents money ```₹500,000``` communicates its meaning even more clearly.*
+
+---
+
+**Common Number Formats**
+
+*Excel provides several commonly used formats*
+
+| Format     | Example       |
+| ---------- | ------------- |
+| General    | `50000`       |
+| Number     | `50,000.00`   |
+| Currency   | `₹50,000.00`  |
+| Accounting | `₹50,000.00`  |
+| Percentage | `25.00%`      |
+| Date       | `09-Sep-2026` |
+| Time       | `15:30`       |
+| Scientific | `5.00E+04`    |
+| Text       | `50000`       |
+
+---
 
 
 
