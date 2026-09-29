@@ -4054,10 +4054,66 @@ $  → US Dollar
 
 ### **Percentage**
 
+*Percentage format displays a numeric value as a percentage by multiplying it by 100 and adding the ```%``` symbol.*
 
+*For example ```0.25``` with Percentage formatting becomes ```25%```*
 
+```txt
+0.75 → 75%
+0.50 → 50%
+0.10 → 10%
+```
 
+---
 
+**Most Important Thing**
+
+*Excel stores percentages as decimal values*
+
+| Underlying value | Percentage display |
+|----|----|
+| `0.10` | 10% |
+| `0.25` | 25% |
+| `0.50` | 50% |
+| `0.75` | 75% |
+| `1` | 100% |
+
+---
+
+**How to Apply Percentage Format?**
+
+**Method-1:** *Home Tab*
+1. *Select the cells*
+2. *Go to Home*
+3. *Find the Number group*
+4. *Click the % Percentage Style button*
+
+**Method-2:** *Format Cells*
+1. *Select the cells*
+2. *Press ```Ctrl + 1```*
+3. *Select Percentage*
+4. *Choose the number of decimal places*
+5. *Click OK*
+
+---
+
+**Percentage with Decimal Places**
+
+*Suppose the underlying value is ```0.2567```*
+
+**0 decimal places:** *```26%```*
+
+**1 decimal place:** *```25.7%```*
+
+**2 decimal places:** *```25.67%```*
+
+---
+
+**Percentage vs Decimal**
+
+*Suppose you have ```0.15``` This can represent ```15%```*
+
+*If you apply percentage format ```15%``` but if you ```15``` and apply percentage formatting, Excel interprets the number as ```1500%```*
 
 
 
