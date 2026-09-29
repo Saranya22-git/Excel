@@ -24,4 +24,5 @@
 | Ctrl + B                                      | Bold                                                                        |
 | Ctrl + I                                      | Italic                                                                      |
 | Ctrl + U                                      | Underline                                                                   |
+| Ctrl + 1                                      | Opens the Format Cells dialog                                               |
 | 

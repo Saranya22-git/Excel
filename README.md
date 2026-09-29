@@ -59,6 +59,12 @@ Hey everybody!!
     - [**Borders**](#borders)
     - [**Colors**](#colors)
     - [**Number Formats**](#number-formats)
+    - [**General Format**](#general-format)
+    - [**Number Format**](#number-format)
+    - [**Decimal Places**](#decimal-places)
+    - [**Thousands Separator**](#thousands-separator)
+    - [**Negative Numbers**](#negative-numbers)
+    - [**Currency**](#currency)
 
 # **Excel Fundamentals**
 
@@ -3779,6 +3785,113 @@ January
 | Text       | `50000`       |
 
 ---
+
+### **General Format**
+
+*General is Excel's default format for most cells*
+
+*For example ```50000``` may appear as ```50000```*
+
+*Excel decides how to display the value based on the content.*
+
+**IMPORTANT:** *General formatting doesn't explicitly communicate whether a number represents:*
+- *Money*
+- *Percentage*
+- *Quantity*
+- *Measurement*
+
+*For reporting, choosing an appropriate format is often better*
+
+---
+
+### **Number Format**
+
+*The Number Format is useful when you're working with ordinary numeric values.*
+
+**Examples:** *```50000``` can become ```50,000.00```*
+
+*The comma makes large numbers easier to read, while ```.00``` represents two decimal places*
+
+*You can control*
+- *Decimal places*
+- *Thousands separator*
+- *Negative number display*
+
+---
+
+### **Decimal Places**
+
+*Suppose your value is ```12345.6789``` You could display it as ```12,345.68``` with 2 decimal places or ```12,345.7``` with 1 decimal place or ```12,346``` with 0 decimal places.*
+
+**IMPORTANT:** *Changing ythe displayed decimal places doesn't necessarily change the underlying stored number*
+
+*For example*
+
+```txt
+Underlying value: 12.6789
+
+Displayed: 12.68
+```
+
+*The underlying value may still be ```12.6789```*
+
+---
+
+### **Thousands Separator**
+
+*Large numbers are easier to read when thousands separators are used.*
+
+- **Without separator:** *```2500000```*
+- **With separator:** *```2, 500, 000```*
+
+---
+
+### **Negative Numbers**
+
+*Number formatting can also control how negative values appear.*
+
+*For example ```-5000``` can be displayed as ```-5,000```*
+
+*Depending on the selected format, negative values can also have different visual representations*
+
+*For example, financial reports may use ```(5,000)``` to represent a negative value*
+
+---
+
+**Number Formatting does not convert Text to Numbers**
+
+*Suppose a cell contains ```'50000``` or the value was imported as text ```"50000"```*
+
+*Simply applying Number Format may not make it a true numeric value*
+
+**Example:** *If Excel treats ```50000``` as text, applying a number format doesn't necessarily turn it into a number*
+
+*You may need to convert it using techniques/functions such as*
+- *```VALUE()```*
+- *Text to Columns*
+- *Multiply by 1*
+- *Paste Special → Multiply*
+
+---
+
+**How to Apply Number Format**
+
+**Method-1:** *Home Tab*
+  1. *Select the cells*
+  2. *Go To Home*
+  3. *Find the Number group*
+  4. *Choose the required format*
+
+**Method-2:** *Format Cells*
+
+*You can press ```Ctrl + 1``` This opens the Format Cells doing Then select **Number** From there you can choose different categories and customize them.*
+
+---
+
+### **Currency**
+
+
+
 
 
 
