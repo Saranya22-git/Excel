@@ -66,6 +66,7 @@ Hey everybody!!
     - [**Negative Numbers**](#negative-numbers)
     - [**Currency**](#currency)
     - [**Accounting**](#accounting)
+    - [**Percentage**](#percentage)
 
 # **Excel Fundamentals**
 
@@ -3968,6 +3969,90 @@ $  → US Dollar
 ---
 
 ### **Accounting**
+
+*Accounting format is a number format mainly used for financial projects.*
+
+*It displays monetary values with*
+- *A currency symbol*
+- *Thousands separators*
+- *Decimal places*
+- *Consistent alignment of currency symbols and decimal points*
+
+**Example:**
+
+```txt
+₹    50,000.00
+₹   125,000.00
+₹     5,000.00
+```
+
+*The currency symbols and decimal points are aligned consistently*
+
+---
+
+**How to Apply Accounting Format?**
+
+**Method-1:** *Home Tab*
+1. *Select the cells*
+2. *Go to Home*
+3. *Find the Number group*
+4. *Choose Accounting Number Format*
+
+**Method-2:** *Format Cells*
+1. *Select the cells*
+2. *Press ```Ctrl + 1```*
+3. *Select Accounting*
+4. *Choose*
+   - *Decimal places*
+   - *Symbol*
+5. *Click OK*
+
+---
+
+**Decimal Places**
+
+*Accounting format allows you to choose how many decimal places you want*
+
+*For example*
+
+**2 decimal places**
+
+```txt
+₹    50,000.00
+```
+
+**0 decimal places**
+
+```txt
+₹    50,000
+```
+
+---
+
+**Negative Values**
+
+*Accounting format can also display negative values in a consistent financial-reporting style*
+
+*For example a negative value might appear as ```₹   (5,000.00)``` depending on the selected format*
+
+---
+
+**Accounting vs Number vs Currency**
+
+| Format | Main purpose |
+|---|---|
+| **Number** | General numeric values |
+| **Currency** | Monetary values |
+| **Accounting** | Financial reporting with aligned symbols |
+
+**Example:**
+- *Number ```50,000.00```*
+- *Currency ```₹50,000.00```*
+- *Accounting ```₹    50,000.00```*
+
+---
+
+### **Percentage**
 
 
 
