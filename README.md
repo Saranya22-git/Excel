@@ -65,6 +65,7 @@ Hey everybody!!
     - [**Thousands Separator**](#thousands-separator)
     - [**Negative Numbers**](#negative-numbers)
     - [**Currency**](#currency)
+    - [**Accounting**](#accounting)
 
 # **Excel Fundamentals**
 
@@ -3889,6 +3890,84 @@ Displayed: 12.68
 ---
 
 ### **Currency**
+
+*Currency Format is used when a number represents a monetary value.*
+
+*For example, the value ```50000``` can be displayed as ```₹50,000.00```*
+
+*The underlying value is still 50000; Currency Formatting changes how it is displayed*
+
+---
+
+**How to Apply Currency Format?**
+
+**Method-1:** *Home Tab*
+1. *Select the cells*
+2. *Go to Home*
+3. *Find the Number group*
+4. *Choose the currency option*
+
+**Method-2:** *Format Cells*
+1. *Select the cells*
+2. *Press ```Ctrl + 1```*
+3. *Select Currency*
+4. *Choose*
+   - *Currency Symbol*
+   - *Decimal places*
+   - *Negative number format*
+5. *Click OK*
+
+---
+
+**Currency Symbol**
+
+*Currency formatting can display different currency sumbols*
+
+*For example*
+
+```txt
+₹  → Indian Rupee
+$  → US Dollar
+€  → Euro
+£  → British Pound
+¥  → Japanese Yen
+```
+
+*For example ```50000``` could be displayed as ```₹50,000.00``` or ```$50,000.00``` depending on the selected currency*
+
+---
+
+**Decimal Places**
+
+*Currency values commonly use 2 decimal places*
+
+*For example ```50000``` → ```₹50,000.00``` You can also choose 0 decimal places ```₹50,000```*
+
+---
+
+**Negative Currency Values**
+
+*Suppose ```-5000``` is a loss or expense. Currency formatting can display it as something like ```-₹5,000.00``` depending on the selected format and regional settings*
+
+*You can choose different negative-value display options in Format Cells*
+
+---
+
+**Currency vs Accounting**
+
+**Currency:** *The currency symbol generally appears close to the value ```₹50,000.00```*
+
+**Accounting:** *Accounting format aligns currency symbols and decimal points consistently across a column*
+
+```txt
+₹    50,000.00
+₹   125,000.00
+₹     5,000.00
+```
+
+---
+
+### **Accounting**
 
 
 
