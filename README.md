@@ -68,6 +68,7 @@ Hey everybody!!
     - [**Accounting**](#accounting)
     - [**Percentage**](#percentage)
     - [**Date Formats**](#date-formats)
+    - [**Time Formats**](#time-formats)
 
 # **Excel Fundamentals**
 
@@ -4142,7 +4143,95 @@ $  → US Dollar
 
 ### **Date Formats**
 
+*Date Formatting controls how a date is displayed in an Excel cell.*
 
+*For example, the same date can be displayed in different ways*
+
+Date format          | Example
+---------------------|-----------------
+General date style   | 10/10/2026
+Day-Month-Year       | 10-Oct-2026
+Long date            | 10 October 2026
+ISO-style date       | 2026-10-10
+
+*The displayed appearance changes if Excel recognizes the entry as a date, the underlying date value remains the same.*
+
+---
+
+**Why do Data Analysts use Date Formats?**
+
+*Dates are common in business datasets such as*
+- *Sales transaction dates*
+- *Employee joining dates*
+- *Customer registration dates*
+- *Order delivery dates*
+- *Monthly revenue reports*
+- *Customer churn analysis*
+
+*For example, you may receive*
+
+Order ID | Order Date | Revenue
+---------|------------|--------
+101      | 10/01/2026 | 25,000
+102      | 15/01/2026 | 18,000
+103      | 20/01/2026 | 30,000
+
+*A consistent date format makes the dataset easier to read and analyze*
+
+---
+
+**How to apply Date Format?**
+
+**Method-1:** *Home Tab*
+1. *Select the date cells*
+2. *Go to Home*
+3. *Find the Number group*
+4. *Open the number-format dropdown*
+5. *Choose Short Date or Long Date*
+
+**Method-2:** *Format Cells*
+1. *Select the cells*
+2. *Press ```Ctrl + 1```*
+3. *Select Date*
+4. *Choose the required date type and locate if available*
+5. *Click OK*
+
+---
+
+**Custom Date Formats**
+
+Format code       | Example display
+------------------|------------------
+dd-mm-yyyy        | 10-10-2026
+dd-mmm-yyyy       | 10-Oct-2026
+dd-mmmm-yyyy      | 10-October-2026
+mm/dd/yyyy        | 10/10/2026
+yyyy-mm-dd        | 2026-10-10
+ddd, dd-mmm-yyyy  | Sat, 10-Oct-2026
+
+- *```d``` = day*
+- *```m``` = month*
+- *```y``` = year*
+- *```ddd``` = abbreviated weekday*
+- *```dddd``` = full weekday name*
+- *```mmm``` = abbreviated month name*
+- *```mmmm``` = full month name*
+
+---
+
+**How to Create a Custom Date Format?**
+
+*Suppose your date is in cell ```A2``` You want it to display as ```2026-10-10```*
+
+1. *Select A2*
+2. *Press ```Ctrl + 1```*
+3. *Select Custom*
+4. *Enter the format code ```yyyy-mm-dd```*
+5. *Click OK*
+
+---
+
+### **Time Formats**
 
 
 
