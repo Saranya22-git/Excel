@@ -67,6 +67,7 @@ Hey everybody!!
     - [**Currency**](#currency)
     - [**Accounting**](#accounting)
     - [**Percentage**](#percentage)
+    - [**Date Formats**](#date-formats)
 
 # **Excel Fundamentals**
 
@@ -4114,6 +4115,32 @@ $  → US Dollar
 *Suppose you have ```0.15``` This can represent ```15%```*
 
 *If you apply percentage format ```15%``` but if you ```15``` and apply percentage formatting, Excel interprets the number as ```1500%```*
+
+---
+
+**Entering a Percentage Directly**
+
+*If you type ```15%``` Excel recognizes it as a percentage value*
+
+*The underlying numeric value is ```0.15``` So ```15% = 0.15```*
+
+---
+
+**Percentage vs Percentage Calculation**
+
+**Percentage Formatting:** *Changes how a number is displayed*
+
+```txt
+0.25 → 25%
+```
+
+**Percentage Calculation:** *Actually calculates a percentage using a formula*
+
+*For example ```Profit / Revenue``` produces the decimal result then percentage formatting displays it as ```%```*
+
+---
+
+### **Date Formats**
 
 
 
