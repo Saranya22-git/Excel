@@ -4233,6 +4233,123 @@ ddd, dd-mmm-yyyy  | Sat, 10-Oct-2026
 
 ### **Time Formats**
 
+*Time formatting controls how a time value is displayed in an Excel cell.*
+
+*For example the same time can appear in different formats*
+
+| Format                  | Display  |
+| ----------------------- | -------- |
+| Standard 12-hour time   | 03:30 PM |
+| 24-hour time            | 15:30    |
+| Hours, minutes, seconds | 15:30:45 |
+
+*Time formatting changes the display, not the underlying time value, provided Excel recognizes the entry as a time.*
+
+---
+
+**Common Time Formats**
+
+| Format Code   | Example  |
+| ------------- | -------- |
+| `h:mm AM/PM`  | 3:30 PM  |
+| `hh:mm AM/PM` | 03:30 PM |
+| `hh:mm`       | 15:30    |
+| `hh:mm:ss`    | 15:30:45 |
+| `h:mm`        | 3:30     |
+
+- *```h``` - hour*
+- *```hh``` - hour displayed with a leading zero when needed*
+- *```m``` - minute*
+- *```mm``` - minute displayed with a leading zero*
+- *```s``` - second*
+- *```ss``` - second displayed with a leading zero*
+- *```AM/PM``` - displays the 12-hour clock indicator*
+
+---
+
+**How to apply Time Format?**
+
+**Method-1:** *Home Tab*
+1. *Select the cells containing time values*
+2. *Go to Home*
+3. *Find the Number group*
+4. *Open the number-format dropdown*
+5. *Choose Time*
+
+**Method-2:** *Format Cells*
+1. *Select the cells*
+2. *Press ```Ctrl + 1``*
+3. *Select Time*
+4. *Choose the desired time format*
+5. *Click OK*
+
+**Method-3:** *Custom*
+1. *Select the cells*
+2. *Press ```Ctrl + 1```*
+3. *Choose Custom*
+4. *Enter a format code such as ```hh:mm AM/PM```*
+5. *Click OK*
+
+---
+
+**12-Hour vs 24-Hour Format**
+
+**12-Hour Format:** *Uses AM and PM*
+
+```txt
+09:00 AM
+03:30 PM
+11:45 PM
+```
+
+**24-Hour Format:** *Uses hours from ```00``` to ```23```*
+
+```txt
+09:00
+15:30
+23:45
+```
+
+*Conversions to remember*
+
+| 12-hour Time | 24-hour Time |
+| ------------ | ------------ |
+| 12:00 AM     | 00:00        |
+| 08:00 AM     | 08:00        |
+| 12:00 PM     | 12:00        |
+| 03:30 PM     | 15:30        |
+| 11:00 PM     | 23:00        |
+
+---
+
+**How Excel stores Time?**
+
+*Excel generally stores recognized time values as fractions of a day.*
+
+*A full day equals ```1```*
+
+| Time     | Underlying Value |
+| -------- | ---------------- |
+| 06:00 AM | 0.25             |
+| 12:00 PM | 0.50             |
+| 06:00 PM | 0.75             |
+| 12:00 AM | 0                |
+
+- *```6 AM``` is one-quarter of a day*
+- *Noon is half a day*
+- *```6 PM``` is three-quarters of a day*
+
+---
+
+**Calculating Time Difference**
+
+*Suppose an employee logs in at 9:00 AM and logs out at 5:00 PM*
+
+|    A     |    B     |     C    |
+| -------- | -------- | -------- |
+| Login    | Logout   | Duration |
+| -------- | -------- | -------- |
+| 09:00 AM | 05:00 PM | 8:00     |
 
 
 
