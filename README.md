@@ -69,6 +69,8 @@ Hey everybody!!
     - [**Percentage**](#percentage)
     - [**Date Formats**](#date-formats)
     - [**Time Formats**](#time-formats)
+    - [**Decimal Places**](#decimal-places-1)
+    - [**Cell Styles**](#cell-styles)
 
 # **Excel Fundamentals**
 
@@ -4278,7 +4280,7 @@ ddd, dd-mmm-yyyy  | Sat, 10-Oct-2026
 
 **Method-2:** *Format Cells*
 1. *Select the cells*
-2. *Press ```Ctrl + 1``*
+2. *Press ```Ctrl + 1```*
 3. *Select Time*
 4. *Choose the desired time format*
 5. *Click OK*
@@ -4345,18 +4347,88 @@ ddd, dd-mmm-yyyy  | Sat, 10-Oct-2026
 
 *Suppose an employee logs in at 9:00 AM and logs out at 5:00 PM*
 
-|    A     |    B     |     C    |
+| A        | B        | C        |
 | -------- | -------- | -------- |
 | Login    | Logout   | Duration |
-| -------- | -------- | -------- |
 | 09:00 AM | 05:00 PM | 8:00     |
 
+*If A2 contains the login tine and B2 contains the logout time enter ```=B2-A2``` Format the result as ```[h]:mm``` For this example the result is ```8:00``` meaning 8 hours*
 
+**Why ```[h]:mm```?**
 
+*The square brackets allow accumulated hours to exceed 24. For example, a total duration of 27 hours can display as ```27:00``` instead of wrapping around to ```03:00```*
 
+---
 
+**What if work continues past midnight?**
 
+*Suppose an employee works from 10:00 PM to 6:00 AM the next day. A simple subtraction gives a negative time because the logout time is earlier on the clock. If the work period is less than 24 hours use ```=MOD(B2-A2,1)``` where ```A2 = 10:00 PM``` ```B2 = 06:00 AM```*
 
+*The result is ```8:00``` hours when displayed using ```[h]:mm```*
+
+*This formula assumes the end time is later chronologically and the interval is under 24 hours. For full date-and-time records, subtract the complete date-time values instead.*
+
+---
+
+**Time Formatting vs Time Calculation**
+
+- *Time formatting changes how the time appears ```15:30``` → ```03:30 PM```*
+- *Time calculation calculates a result using time values ```=B2-A2``` calculates the difference between two times*
+
+*Formatting a text entry as Time does not guarantee that Excel will recognize it as a valid time value.*
+
+---
+
+### **Decimal Places**
+
+*Decimal places determine how many digits appear after the decimal point when a number is displayed in Excel.*
+
+*For example, suppose a product costs ₹125.6789*
+
+```txt
+Original value: 125.6789
+
+2 decimal places → 125.68
+```
+
+*Excel displays two digits after the decimal point when you apply a two-decimal number format.*
+
+---
+
+**How to chnage decimal places?**
+
+*Suppose cell ```A2``` contains ```125.6789```*
+
+**Method-1:** *Home tab*
+1. *Select the cell or range*
+2. *Open the Home tab*
+3. *Find the Number group*
+4. *Click Decrease Decinal to show fewer digits*
+5. *Click Increase Decimal to show more digits*
+
+**Method-2:** *Format Cells*
+1. *Select the cells*
+2. *Press ```Ctrl + 1```*
+3. *Choose Number or another suitable ctaegory*
+4. *Set Decimal places to ```2```*
+5. *Click OK*
+
+---
+
+**Formatting vs ROUND()**
+
+| Feature          | Number formatting            | ROUND() function                 |
+| ---------------- | ---------------------------- | -------------------------------- |
+| Purpose          | Changes how a number appears | Calculates a rounded value       |
+| Example          | Display 12.6789 as 12.68     | `=ROUND(A2,2)` returns 12.68     |
+| Underlying value | Normally remains unchanged   | Formula returns a rounded result |
+| Best use         | Reports and dashboards       | Calculations requiring rounding  |
+
+---
+
+### **Cell Styles**
+
+*Cell Styles are predefined combinations of formatting that you can apply to cells in Excel with one click.*
 
 
 
