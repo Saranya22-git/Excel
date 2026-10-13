@@ -4430,6 +4430,31 @@ Original value: 125.6789
 
 *Cell Styles are predefined combinations of formatting that you can apply to cells in Excel with one click.*
 
+*A style can include font formatting, colors, borders, number formats and alignment.*
+
+*For example, in a sales report you might use*
+- *A heading style for column headers*
+- *A currency style for revenue*
+- *A highlighted style for total sales*
+- *A warning style for overdue payments*
+
+---
+
+**How to Apply a Cell Style?**
+
+- **Step-1:** *Select the cells*
+
+   *Select the cell or range you want to format such as ```A1:D1``` for your report headers*
+
+- **Step-2:** *Open Cell Styles*
+
+   *Go to Home → Styles → Cell Styles*
+
+- **Step-3:** *Choose a style*
+
+*Select a suitable style, such as a Heading style for headers or Total for summary values.*
+
+
 
 
 
